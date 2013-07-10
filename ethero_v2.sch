@@ -7932,10 +7932,10 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <package name="E5-5">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5.08 mm, diameter 5 mm</description>
-<wire x1="-2.1557" y1="1.3432" x2="2.1557" y2="1.3432" width="0.1524" layer="21" curve="-116.146571"/>
-<wire x1="-2.1557" y1="-1.3432" x2="2.1557" y2="-1.3432" width="0.1524" layer="21" curve="116.146571"/>
-<wire x1="-2.1557" y1="1.3432" x2="-2.1557" y2="-1.3432" width="0.1524" layer="51" curve="63.853429"/>
-<wire x1="2.1557" y1="-1.3432" x2="2.1557" y2="1.3432" width="0.1524" layer="51" curve="63.853429"/>
+<wire x1="-2.1557" y1="1.3432" x2="2.1557" y2="1.3432" width="0.1524" layer="21" curve="-116.146571" cap="flat"/>
+<wire x1="-2.1557" y1="-1.3432" x2="2.1557" y2="-1.3432" width="0.1524" layer="21" curve="116.146571" cap="flat"/>
+<wire x1="-2.1557" y1="1.3432" x2="-2.1557" y2="-1.3432" width="0.1524" layer="51" curve="63.853429" cap="flat"/>
+<wire x1="2.1557" y1="-1.3432" x2="2.1557" y2="1.3432" width="0.1524" layer="51" curve="63.853429" cap="flat"/>
 <wire x1="-1.397" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="21"/>
@@ -7950,86 +7950,6 @@ grid 5.08 mm, diameter 5 mm</description>
 <text x="2.54" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="2.54" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="21"/>
-</package>
-<package name="CT3216">
-<description>&lt;b&gt;TANTALUM CAPACITOR&lt;/b&gt;</description>
-<wire x1="-2.973" y1="1.483" x2="2.973" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.973" y1="-1.483" x2="-2.973" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-2.973" y1="-1.483" x2="-2.973" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.973" y1="1.483" x2="2.973" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-1.651" y1="0.559" x2="-1.651" y2="-0.559" width="0.1524" layer="51"/>
-<wire x1="1.651" y1="0.559" x2="1.651" y2="-0.559" width="0.1524" layer="51"/>
-<wire x1="-1.535" y1="0.798" x2="-1.535" y2="-0.798" width="0.2032" layer="51"/>
-<wire x1="-1.535" y1="-0.798" x2="1.535" y2="-0.798" width="0.2032" layer="51"/>
-<wire x1="1.535" y1="-0.798" x2="1.535" y2="0.798" width="0.2032" layer="51"/>
-<wire x1="1.535" y1="0.798" x2="-1.535" y2="0.798" width="0.2032" layer="51"/>
-<wire x1="-0.7" y1="0" x2="-1.26" y2="0" width="0.2032" layer="51"/>
-<wire x1="-0.97" y1="0.26" x2="-0.97" y2="-0.3" width="0.2032" layer="51"/>
-<smd name="+" x="-1.4" y="0" dx="2" dy="1.2" layer="1"/>
-<smd name="-" x="1.4" y="0" dx="2" dy="1.2" layer="1"/>
-<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.1999" y1="-0.5999" x2="0.1999" y2="0.5999" layer="35"/>
-</package>
-<package name="CT3528">
-<description>&lt;b&gt;TANTALUM CAPACITOR&lt;/b&gt;</description>
-<wire x1="-2.973" y1="1.983" x2="2.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="2.973" y1="-1.983" x2="-2.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-2.973" y1="-1.983" x2="-2.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="2.973" y1="1.983" x2="2.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-1.637" y1="-1.383" x2="-1.637" y2="1.383" width="0.2032" layer="51"/>
-<wire x1="-1.778" y1="1.016" x2="-1.778" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="1.637" y1="1.383" x2="-1.637" y2="1.383" width="0.2032" layer="51"/>
-<wire x1="1.637" y1="-1.383" x2="-1.637" y2="-1.383" width="0.2032" layer="51"/>
-<wire x1="1.778" y1="1.016" x2="1.778" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="1.637" y1="-1.383" x2="1.637" y2="1.383" width="0.2032" layer="51"/>
-<wire x1="-0.68" y1="0" x2="-1.31" y2="0" width="0.2032" layer="51"/>
-<wire x1="-1" y1="0.3" x2="-1" y2="-0.33" width="0.2032" layer="51"/>
-<smd name="+" x="-1.5" y="0" dx="2" dy="2.2" layer="1"/>
-<smd name="-" x="1.5" y="0" dx="2" dy="2.2" layer="1"/>
-<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.3" y1="-1" x2="0.3" y2="1" layer="35"/>
-</package>
-<package name="CT6032">
-<description>&lt;b&gt;TANTALUM CAPACITOR&lt;/b&gt;</description>
-<wire x1="-4.473" y1="1.983" x2="4.473" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="4.473" y1="-1.983" x2="-4.473" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-4.473" y1="-1.983" x2="-4.473" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="4.473" y1="1.983" x2="4.473" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-2.932" y1="-1.637" x2="-2.932" y2="1.637" width="0.2032" layer="51"/>
-<wire x1="-3.073" y1="1.067" x2="-3.073" y2="-1.067" width="0.1524" layer="51"/>
-<wire x1="2.957" y1="1.637" x2="-2.932" y2="1.637" width="0.2032" layer="51"/>
-<wire x1="2.957" y1="-1.637" x2="-2.932" y2="-1.637" width="0.2032" layer="51"/>
-<wire x1="3.073" y1="1.067" x2="3.073" y2="-1.067" width="0.1524" layer="51"/>
-<wire x1="2.957" y1="-1.637" x2="2.957" y2="1.637" width="0.2032" layer="51"/>
-<wire x1="-1.18" y1="0" x2="-2.45" y2="0" width="0.2032" layer="51"/>
-<wire x1="-1.8" y1="0.63" x2="-1.8" y2="-0.64" width="0.2032" layer="51"/>
-<smd name="+" x="-2.5" y="0" dx="2.6" dy="2.2" layer="1"/>
-<smd name="-" x="2.5" y="0" dx="2.6" dy="2.2" layer="1"/>
-<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
-</package>
-<package name="CT7343">
-<description>&lt;b&gt;TANTALUM CAPACITOR&lt;/b&gt;</description>
-<wire x1="-4.973" y1="2.483" x2="4.973" y2="2.483" width="0.0508" layer="39"/>
-<wire x1="4.973" y1="-2.483" x2="-4.973" y2="-2.483" width="0.0508" layer="39"/>
-<wire x1="-4.973" y1="-2.483" x2="-4.973" y2="2.483" width="0.0508" layer="39"/>
-<wire x1="4.973" y1="2.483" x2="4.973" y2="-2.483" width="0.0508" layer="39"/>
-<wire x1="-3.592" y1="-2.195" x2="-3.592" y2="2.195" width="0.2032" layer="51"/>
-<wire x1="-3.734" y1="1.143" x2="-3.734" y2="-1.143" width="0.1524" layer="51"/>
-<wire x1="3.582" y1="2.195" x2="-3.592" y2="2.195" width="0.2032" layer="51"/>
-<wire x1="3.582" y1="-2.195" x2="-3.592" y2="-2.195" width="0.2032" layer="51"/>
-<wire x1="3.734" y1="1.143" x2="3.734" y2="-1.143" width="0.1524" layer="51"/>
-<wire x1="3.582" y1="-2.195" x2="3.582" y2="2.195" width="0.2032" layer="51"/>
-<wire x1="-2.04" y1="0" x2="-3.09" y2="0" width="0.2032" layer="51"/>
-<wire x1="-2.55" y1="0.52" x2="-2.55" y2="-0.52" width="0.2032" layer="51"/>
-<smd name="+" x="-3.2" y="0" dx="2.6" dy="2.4" layer="1"/>
-<smd name="-" x="3.2" y="0" dx="2.6" dy="2.4" layer="1"/>
-<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
 </package>
 <package name="B45181A">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -8134,28 +8054,6 @@ body 12.5 x 12.5 mm, rectangle, grid 10.16 mm</description>
 <text x="-5.08" y="6.604" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
-</package>
-<package name="TT2D4">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-diameter 4 mm, grid 2.54 mm</description>
-<wire x1="-1.016" y1="0" x2="-0.508" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="-0.508" y1="-0.889" x2="-0.1778" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="-0.1778" y1="-0.889" x2="-0.1778" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-0.1778" y1="0.889" x2="-0.508" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-0.508" y1="0.889" x2="-0.508" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.508" y1="0" x2="1.016" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.635" y1="-1.143" x2="-1.143" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-1.397" x2="-0.889" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="-1.6985" y1="1.1153" x2="1.6985" y2="1.1153" width="0.1524" layer="21" curve="-113.419135"/>
-<wire x1="-1.6985" y1="-1.1153" x2="1.6985" y2="-1.1153" width="0.1524" layer="21" curve="113.419135"/>
-<wire x1="-1.6985" y1="1.1153" x2="-1.6985" y2="-1.1153" width="0.1524" layer="51" curve="66.580865"/>
-<wire x1="1.6985" y1="-1.1153" x2="1.6985" y2="1.1153" width="0.1524" layer="51" curve="66.580865"/>
-<pad name="-" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="+" x="-1.27" y="0" drill="0.8128"/>
-<text x="2.159" y="0.762" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="2.159" y="-1.905" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.127" y1="-0.9398" x2="0.5588" y2="0.9398" layer="51"/>
 </package>
 <package name="TT2D4L">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -8376,29 +8274,6 @@ diameter 11 mm, grid 5.08 mm</description>
 <rectangle x1="1.651" y1="-0.381" x2="2.54" y2="0.381" layer="51"/>
 <rectangle x1="-2.54" y1="-0.381" x2="-1.651" y2="0.381" layer="51"/>
 <rectangle x1="0.127" y1="1.9812" x2="0.5588" y2="3.8608" layer="21"/>
-</package>
-<package name="TT5D6">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-diameter 6 mm, grid 5.08 mm</description>
-<wire x1="-2.908" y1="0.9307" x2="2.921" y2="0.889" width="0.1524" layer="21" curve="-145.325311"/>
-<wire x1="2.8966" y1="-0.9655" x2="2.921" y2="0.889" width="0.1524" layer="51" curve="35.361865"/>
-<wire x1="-2.921" y1="-0.889" x2="-2.8966" y2="0.9655" width="0.1524" layer="51" curve="-35.361865"/>
-<wire x1="-2.9403" y1="-0.8232" x2="2.9211" y2="-0.889" width="0.1524" layer="21" curve="147.4323"/>
-<wire x1="-1.524" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="-0.889" x2="-0.1778" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="-0.1778" y1="-0.889" x2="-0.1778" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="-0.1778" y1="0.889" x2="-0.508" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="0.889" x2="-0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="1.27" x2="-1.016" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.397" y1="1.651" x2="-1.397" y2="0.889" width="0.1524" layer="21"/>
-<pad name="-" x="2.54" y="0" drill="0.8128" shape="octagon"/>
-<pad name="+" x="-2.54" y="0" drill="0.8128"/>
-<text x="2.921" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="2.921" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="0.508" y="-2.159" size="0.9906" layer="21" ratio="12">TT</text>
-<rectangle x1="0.127" y1="-0.9398" x2="0.5588" y2="0.9398" layer="21"/>
 </package>
 <package name="TT5D6L">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -8832,118 +8707,6 @@ rectangle, grid 10.16 mm</description>
 <text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
 </package>
-<package name="TAP5-45">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-diameter 4.5 mm, grid 5.08 mm</description>
-<wire x1="-1.397" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="-0.635" x2="-0.1778" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-0.1778" y1="-0.635" x2="-0.1778" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-0.1778" y1="0.635" x2="-0.508" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="0.635" x2="-0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0" x2="1.397" y2="0" width="0.1524" layer="21"/>
-<wire x1="-1.143" y1="0.381" x2="-1.143" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="0.635" x2="-1.397" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0.1778" y1="0.635" x2="0.1778" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0.635" x2="0.1778" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0.1778" y1="-0.635" x2="0.508" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="-0.635" x2="0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0" x2="0.508" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0.3302" y1="-0.508" x2="0.3302" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="-1.9144" y1="-1.2492" x2="1.9144" y2="-1.2492" width="0.1524" layer="21" curve="113.748837"/>
-<wire x1="-1.9144" y1="1.2492" x2="1.9144" y2="1.2492" width="0.1524" layer="21" curve="-113.748837"/>
-<wire x1="-1.9144" y1="1.2492" x2="-1.9144" y2="-1.2492" width="0.1524" layer="51" curve="66.251163"/>
-<wire x1="1.9144" y1="-1.2492" x2="1.9144" y2="1.2492" width="0.1524" layer="51" curve="66.251163"/>
-<pad name="-" x="2.54" y="0" drill="0.8128" shape="octagon"/>
-<pad name="+" x="-2.54" y="0" drill="0.8128"/>
-<text x="2.286" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="2.286" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-0.889" y="-1.905" size="0.9906" layer="21" ratio="12">TT</text>
-</package>
-<package name="TAP5-50">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-diameter 5.0 mm, grid 5.08 mm</description>
-<wire x1="-2.1557" y1="1.3432" x2="2.1557" y2="1.3432" width="0.1524" layer="21" curve="-116.146571"/>
-<wire x1="-2.1557" y1="-1.3432" x2="2.1557" y2="-1.3432" width="0.1524" layer="21" curve="116.146571"/>
-<wire x1="-2.1557" y1="1.3432" x2="-2.1557" y2="-1.3432" width="0.1524" layer="51" curve="63.853429"/>
-<wire x1="2.1557" y1="-1.3432" x2="2.1557" y2="1.3432" width="0.1524" layer="51" curve="63.853429"/>
-<wire x1="-1.397" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="-0.889" x2="-0.1778" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="-0.1778" y1="-0.889" x2="-0.1778" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="-0.1778" y1="0.889" x2="-0.508" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="0.889" x2="-0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0" x2="1.397" y2="0" width="0.1524" layer="21"/>
-<wire x1="-1.143" y1="0.635" x2="-1.143" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="0.889" x2="-1.397" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="0.1778" y1="0.889" x2="0.1778" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0.889" x2="0.1778" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="0.1778" y1="-0.889" x2="0.508" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="-0.889" x2="0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0" x2="0.508" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="0.3302" y1="-0.762" x2="0.3302" y2="0.762" width="0.1524" layer="21"/>
-<pad name="-" x="2.54" y="0" drill="0.8128" shape="octagon"/>
-<pad name="+" x="-2.54" y="0" drill="0.8128"/>
-<text x="2.54" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-0.889" y="-2.159" size="0.9906" layer="21" ratio="12">TT</text>
-</package>
-<package name="TAP5-70">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-diameter 7.0 mm, grid 5.08 mm</description>
-<wire x1="-1.397" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="-0.889" x2="-0.1778" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="-0.1778" y1="-0.889" x2="-0.1778" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="-0.1778" y1="0.889" x2="-0.508" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="0.889" x2="-0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0" x2="1.397" y2="0" width="0.1524" layer="21"/>
-<wire x1="-1.397" y1="0.508" x2="-1.397" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-1.143" y1="0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="0.1778" y1="0.889" x2="0.1778" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0.889" x2="0.1778" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="0.1778" y1="-0.889" x2="0.508" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="-0.889" x2="0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0" x2="0.508" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="0.3302" y1="-0.762" x2="0.3302" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-3.3749" y1="-1.1199" x2="3.3749" y2="-1.1199" width="0.1524" layer="21" curve="143.285003"/>
-<wire x1="-3.3749" y1="1.1199" x2="3.3749" y2="1.1199" width="0.1524" layer="21" curve="-143.285003"/>
-<wire x1="-3.3749" y1="1.1199" x2="-3.3749" y2="-1.1199" width="0.1524" layer="51" curve="36.714997"/>
-<wire x1="3.3749" y1="-1.1199" x2="3.3749" y2="1.1199" width="0.1524" layer="51" curve="36.714997"/>
-<pad name="-" x="2.54" y="0" drill="0.8128" shape="octagon"/>
-<pad name="+" x="-2.54" y="0" drill="0.8128"/>
-<text x="3.175" y="2.413" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.175" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="0.635" y="-2.413" size="0.9906" layer="21" ratio="12">TT</text>
-</package>
-<package name="TAP5-60">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-diameter 6.0 mm, grid 5.08 mm</description>
-<wire x1="-1.397" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="-0.889" x2="-0.1778" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="-0.1778" y1="-0.889" x2="-0.1778" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="-0.1778" y1="0.889" x2="-0.508" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="0.889" x2="-0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0" x2="1.397" y2="0" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="0.889" x2="-1.524" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="0.1778" y1="0.889" x2="0.1778" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0.889" x2="0.1778" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="0.1778" y1="-0.889" x2="0.508" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="-0.889" x2="0.508" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0" x2="0.508" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="0.3302" y1="-0.762" x2="0.3302" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-2.8702" y1="1.3574" x2="2.8702" y2="1.3574" width="0.1524" layer="21" curve="-129.378377"/>
-<wire x1="-2.8702" y1="-1.3574" x2="2.8702" y2="-1.3574" width="0.1524" layer="21" curve="129.378377"/>
-<wire x1="-2.8702" y1="1.3574" x2="-2.8702" y2="-1.3574" width="0.1524" layer="51" curve="50.621623"/>
-<wire x1="2.8702" y1="-1.3574" x2="2.8702" y2="1.3574" width="0.1524" layer="51" curve="50.621623"/>
-<pad name="-" x="2.54" y="0" drill="0.8128" shape="octagon"/>
-<pad name="+" x="-2.54" y="0" drill="0.8128"/>
-<text x="2.921" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="2.921" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="0" y="-2.54" size="0.9906" layer="21" ratio="12">TT</text>
-</package>
 <package name="TAP5-80">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 diameter 8.0 mm, grid 5.08 mm</description>
@@ -9180,20 +8943,6 @@ grid 15.24 mm, diameter 9 mm</description>
 <rectangle x1="6.096" y1="-0.254" x2="6.477" y2="0.254" layer="21"/>
 <rectangle x1="-6.477" y1="-0.254" x2="-6.096" y2="0.254" layer="21"/>
 </package>
-<package name="E2,5-4R">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 2.54 mm, diameter 4 mm</description>
-<wire x1="-0.127" y1="0" x2="0.0762" y2="0" width="0.6096" layer="21"/>
-<wire x1="-2.794" y1="0" x2="-2.286" y2="0" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-0.254" x2="-2.54" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.6096" layer="51"/>
-<wire x1="0.508" y1="0.635" x2="0.5403" y2="-0.6456" width="0.1524" layer="21" curve="320.718856"/>
-<wire x1="0.508" y1="0.635" x2="0.5403" y2="-0.6456" width="0.1524" layer="51" curve="-39.281144"/>
-<pad name="+" x="-1.27" y="0" drill="0.8128" diameter="1.6002"/>
-<pad name="-" x="1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="0.762" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0.762" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="E2,5-5">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.54 mm, diameter 5 mm</description>
@@ -9255,20 +9004,6 @@ grid 2.54 mm, diameter 7 mm</description>
 <text x="3.048" y="-3.175" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
-<package name="E2,5RE">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 2.54 mm, diameter 4 mm,</description>
-<wire x1="-0.127" y1="0" x2="0.0762" y2="0" width="0.6096" layer="21"/>
-<wire x1="-2.794" y1="0" x2="-2.286" y2="0" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-0.254" x2="-2.54" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.6096" layer="51"/>
-<wire x1="0.254" y1="1.143" x2="0.254" y2="-1.143" width="0.1524" layer="21" curve="286.260205"/>
-<wire x1="0.254" y1="-1.143" x2="0.254" y2="1.143" width="0.1524" layer="51" curve="73.739795"/>
-<pad name="+" x="-1.27" y="0" drill="0.8128" diameter="1.5748"/>
-<pad name="-" x="1.27" y="0" drill="0.8128" diameter="1.5748" shape="octagon"/>
-<text x="0.635" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0.635" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="E2-4">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2 mm, diameter 4 mm</description>
@@ -9287,25 +9022,6 @@ grid 2 mm, diameter 4 mm</description>
 <pad name="+" x="-1.016" y="0" drill="0.8128" diameter="1.27"/>
 <text x="2.159" y="0.889" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="2.159" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="51"/>
-</package>
-<package name="E2-5">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 2.032 mm, diameter 5 mm</description>
-<wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="-1.016" x2="-0.254" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="1.016" x2="-0.762" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="1.016" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.635" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="1.778" x2="-0.762" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="1.524" x2="-1.016" y2="2.032" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="-" x="1.016" y="0" drill="0.8128" diameter="1.27" shape="octagon"/>
-<pad name="+" x="-1.016" y="0" drill="0.8128" diameter="1.27"/>
-<text x="2.54" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="2.54" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="51"/>
 </package>
 <package name="E22-10">
@@ -10481,50 +10197,6 @@ grid 5.08 mm, diameter 13 mm</description>
 <text x="-4.572" y="-3.937" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.889" y2="1.27" layer="21"/>
 </package>
-<package name="E5-4">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 5.05 mm, diameter 4 mm</description>
-<wire x1="-1.6985" y1="1.1153" x2="1.6985" y2="1.1153" width="0.1524" layer="21" curve="-113.419135"/>
-<wire x1="-1.6985" y1="-1.1153" x2="1.6985" y2="-1.1153" width="0.1524" layer="21" curve="113.419135"/>
-<wire x1="-1.6985" y1="1.1153" x2="-1.6985" y2="-1.1153" width="0.1524" layer="51" curve="66.580865"/>
-<wire x1="1.6985" y1="-1.1153" x2="1.6985" y2="1.1153" width="0.1524" layer="51" curve="66.580865"/>
-<wire x1="-1.397" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="-1.016" x2="-0.254" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="1.016" x2="-0.762" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="1.016" x2="-0.762" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="0" x2="1.397" y2="0" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="0.635" x2="-1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.381" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
-<pad name="+" x="-2.54" y="0" drill="0.8128" diameter="1.905"/>
-<pad name="-" x="2.54" y="0" drill="0.8128" diameter="1.905" shape="octagon"/>
-<text x="2.159" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="2.159" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="21"/>
-</package>
-<package name="E5-6">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 5.08 mm, diameter 6 mm</description>
-<wire x1="-2.8702" y1="1.3574" x2="2.8702" y2="1.3574" width="0.1524" layer="21" curve="-129.378377"/>
-<wire x1="-2.8702" y1="-1.3574" x2="2.8702" y2="-1.3574" width="0.1524" layer="21" curve="129.378377"/>
-<wire x1="-2.8702" y1="1.3574" x2="-2.8702" y2="-1.3574" width="0.1524" layer="51" curve="50.621623"/>
-<wire x1="2.8702" y1="-1.3574" x2="2.8702" y2="1.3574" width="0.1524" layer="51" curve="50.621623"/>
-<wire x1="-1.397" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="-1.016" x2="-0.254" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="1.016" x2="-0.762" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="1.016" x2="-0.762" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="0" x2="1.397" y2="0" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="0.635" x2="-1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.381" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
-<pad name="+" x="-2.54" y="0" drill="0.8128" diameter="1.905"/>
-<pad name="-" x="2.54" y="0" drill="0.8128" diameter="1.905" shape="octagon"/>
-<text x="3.048" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.048" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="21"/>
-</package>
 <package name="E5-8,5">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5.08 mm, diameter 8.5 mm</description>
@@ -10825,21 +10497,6 @@ grid 55 mm, diameter 30 mm</description>
 <rectangle x1="-2.54" y1="-1.524" x2="-2.032" y2="1.524" layer="21"/>
 <rectangle x1="25.4" y1="-0.381" x2="25.908" y2="0.381" layer="21"/>
 <rectangle x1="-25.908" y1="-0.381" x2="-25.4" y2="0.381" layer="21"/>
-</package>
-<package name="E5R">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 5.08 mm, diameter 9 mm</description>
-<wire x1="-0.889" y1="0" x2="0.9398" y2="0" width="0.6096" layer="21"/>
-<wire x1="-5.588" y1="0" x2="-4.572" y2="0" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-0.508" x2="-5.08" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0" x2="1.143" y2="0" width="0.6096" layer="51"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.6096" layer="51"/>
-<wire x1="1.778" y1="-1.143" x2="1.7821" y2="1.1275" width="0.1524" layer="21" curve="-330.552701"/>
-<wire x1="1.7732" y1="1.1613" x2="1.7781" y2="-1.143" width="0.1524" layer="51" curve="-29.895306"/>
-<pad name="+" x="-2.54" y="0" drill="0.8128" diameter="2.54"/>
-<pad name="-" x="2.54" y="0" drill="0.8128" diameter="2.54" shape="octagon"/>
-<text x="1.651" y="2.4638" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="E7,5-16">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -11251,388 +10908,6 @@ http://www.bccomponents.com/</description>
 <rectangle x1="4.5" y1="-1" x2="6.85" y2="1" layer="51"/>
 <rectangle x1="-6.85" y1="-1" x2="-4.5" y2="1" layer="51"/>
 </package>
-<package name="140CLH-0810">
-<description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
-Long life base plate, High temperature 140 CLH&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="-4.85" y1="4.2" x2="3.4" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="4.85" y1="2.75" x2="4.85" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="4.85" y1="1.45" x2="4.85" y2="-1.45" width="0.2032" layer="51"/>
-<wire x1="4.85" y1="-1.45" x2="4.85" y2="-2.75" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="-4.2" x2="-4.85" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="-4.85" y1="-4.2" x2="-4.85" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-4.85" y1="-1.45" x2="-4.85" y2="1.45" width="0.2032" layer="51"/>
-<wire x1="-4.85" y1="1.45" x2="-4.85" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="4.85" y1="2.75" x2="3.4" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="4.85" y1="-2.75" x2="3.4" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="-3.65" y1="1.4" x2="3.65" y2="1.4" width="0.2032" layer="21" curve="-138.030204"/>
-<wire x1="3.65" y1="1.4" x2="3.65" y2="-1.4" width="0.2032" layer="51" curve="-41.969796"/>
-<wire x1="-3.65" y1="-1.4" x2="3.65" y2="-1.4" width="0.2032" layer="21" curve="138.030204"/>
-<wire x1="-3.65" y1="-1.4" x2="-3.65" y2="1.4" width="0.2032" layer="51" curve="-41.969796"/>
-<smd name="+" x="3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
-<smd name="-" x="-3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
-<text x="-5.38" y="-2.74" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="0.635" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-<package name="140CLH-1010">
-<description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
-Long life base plate, High temperature 140 CLH&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="-5.8" y1="5.15" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="3.7" x2="5.8" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="1.45" x2="5.8" y2="-1.45" width="0.2032" layer="51"/>
-<wire x1="5.8" y1="-1.45" x2="5.8" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="4.35" y1="-5.15" x2="-5.8" y2="-5.15" width="0.2032" layer="21"/>
-<wire x1="-5.8" y1="-5.15" x2="-5.8" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-5.8" y1="-1.45" x2="-5.8" y2="1.45" width="0.2032" layer="51"/>
-<wire x1="-5.8" y1="1.45" x2="-5.8" y2="5.15" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="3.7" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="-3.7" x2="4.35" y2="-5.15" width="0.2032" layer="21"/>
-<wire x1="-4.7" y1="-1.4" x2="4.7" y2="-1.4" width="0.2032" layer="21" curve="146.825323"/>
-<wire x1="4.7" y1="-1.4" x2="4.7" y2="1.4" width="0.2032" layer="51" curve="33.174677"/>
-<wire x1="-4.7" y1="1.4" x2="4.7" y2="1.4" width="0.2032" layer="21" curve="-146.825323"/>
-<wire x1="-4.7" y1="1.4" x2="-4.7" y2="-1.4" width="0.2032" layer="51" curve="33.174677"/>
-<smd name="+" x="4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
-<smd name="-" x="-4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
-<text x="-2.74" y="1.93" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.375" y="-2.885" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="140CLH-1014">
-<description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
-Long life base plate, High temperature 140 CLH&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="-5.8" y1="5.15" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="3.7" x2="5.8" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="1.45" x2="5.8" y2="-1.45" width="0.2032" layer="51"/>
-<wire x1="5.8" y1="-1.45" x2="5.8" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="4.35" y1="-5.15" x2="-5.8" y2="-5.15" width="0.2032" layer="21"/>
-<wire x1="-5.8" y1="-5.15" x2="-5.8" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-5.8" y1="-1.45" x2="-5.8" y2="1.45" width="0.2032" layer="51"/>
-<wire x1="-5.8" y1="1.45" x2="-5.8" y2="5.15" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="3.7" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="-3.7" x2="4.35" y2="-5.15" width="0.2032" layer="21"/>
-<wire x1="-4.7" y1="-1.4" x2="4.7" y2="-1.4" width="0.2032" layer="21" curve="146.825323"/>
-<wire x1="4.7" y1="-1.4" x2="4.7" y2="1.4" width="0.2032" layer="51" curve="33.174677"/>
-<wire x1="-4.7" y1="1.4" x2="4.7" y2="1.4" width="0.2032" layer="21" curve="-146.825323"/>
-<wire x1="-4.7" y1="1.4" x2="-4.7" y2="-1.4" width="0.2032" layer="51" curve="33.174677"/>
-<smd name="+" x="4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
-<smd name="-" x="-4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
-<text x="-2.69" y="1.98" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.225" y="-2.935" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="150CLZ-0810">
-<description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
-Long life base plate, very low impedance 150 CLZ&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="-4.85" y1="4.2" x2="3.4" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="4.85" y1="2.75" x2="4.85" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="4.85" y1="1.45" x2="4.85" y2="-1.45" width="0.2032" layer="51"/>
-<wire x1="4.85" y1="-1.45" x2="4.85" y2="-2.75" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="-4.2" x2="-4.85" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="-4.85" y1="-4.2" x2="-4.85" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-4.85" y1="-1.45" x2="-4.85" y2="1.45" width="0.2032" layer="51"/>
-<wire x1="-4.85" y1="1.45" x2="-4.85" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="4.85" y1="2.75" x2="3.4" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="4.85" y1="-2.75" x2="3.4" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="-3.65" y1="1.4" x2="3.65" y2="1.4" width="0.2032" layer="21" curve="-138.030204"/>
-<wire x1="3.65" y1="1.4" x2="3.65" y2="-1.4" width="0.2032" layer="51" curve="-41.969796"/>
-<wire x1="-3.65" y1="-1.4" x2="3.65" y2="-1.4" width="0.2032" layer="21" curve="138.030204"/>
-<wire x1="-3.65" y1="-1.4" x2="-3.65" y2="1.4" width="0.2032" layer="51" curve="-41.969796"/>
-<smd name="+" x="3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
-<smd name="-" x="-3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
-<text x="-5.43" y="-2.74" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="0.635" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-<package name="150CLZ-1010">
-<description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
-Long life base plate, very low impedance 150 CLZ&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="-5.8" y1="5.15" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="3.7" x2="5.8" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="1.45" x2="5.8" y2="-1.45" width="0.2032" layer="51"/>
-<wire x1="5.8" y1="-1.45" x2="5.8" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="4.35" y1="-5.15" x2="-5.8" y2="-5.15" width="0.2032" layer="21"/>
-<wire x1="-5.8" y1="-5.15" x2="-5.8" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-5.8" y1="-1.45" x2="-5.8" y2="1.45" width="0.2032" layer="51"/>
-<wire x1="-5.8" y1="1.45" x2="-5.8" y2="5.15" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="3.7" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="-3.7" x2="4.35" y2="-5.15" width="0.2032" layer="21"/>
-<wire x1="-4.7" y1="-1.4" x2="4.7" y2="-1.4" width="0.2032" layer="21" curve="146.825323"/>
-<wire x1="4.7" y1="-1.4" x2="4.7" y2="1.4" width="0.2032" layer="51" curve="33.174677"/>
-<wire x1="-4.7" y1="1.4" x2="4.7" y2="1.4" width="0.2032" layer="21" curve="-146.825323"/>
-<wire x1="-4.7" y1="1.4" x2="-4.7" y2="-1.4" width="0.2032" layer="51" curve="33.174677"/>
-<smd name="+" x="4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
-<smd name="-" x="-4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
-<text x="-2.79" y="1.93" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.075" y="-2.885" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="150CLZ-1014">
-<description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
-Long life base plate, very low impedance 150 CLZ&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="-5.8" y1="5.15" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="3.7" x2="5.8" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="1.45" x2="5.8" y2="-1.45" width="0.2032" layer="51"/>
-<wire x1="5.8" y1="-1.45" x2="5.8" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="4.35" y1="-5.15" x2="-5.8" y2="-5.15" width="0.2032" layer="21"/>
-<wire x1="-5.8" y1="-5.15" x2="-5.8" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-5.8" y1="-1.45" x2="-5.8" y2="1.45" width="0.2032" layer="51"/>
-<wire x1="-5.8" y1="1.45" x2="-5.8" y2="5.15" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="3.7" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
-<wire x1="5.8" y1="-3.7" x2="4.35" y2="-5.15" width="0.2032" layer="21"/>
-<wire x1="-4.7" y1="-1.4" x2="4.7" y2="-1.4" width="0.2032" layer="21" curve="146.825323"/>
-<wire x1="4.7" y1="-1.4" x2="4.7" y2="1.4" width="0.2032" layer="51" curve="33.174677"/>
-<wire x1="-4.7" y1="1.4" x2="4.7" y2="1.4" width="0.2032" layer="21" curve="-146.825323"/>
-<wire x1="-4.7" y1="-1.4" x2="-4.7" y2="1.4" width="0.2032" layer="51" curve="-33.174677"/>
-<smd name="+" x="4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
-<smd name="-" x="-4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
-<text x="-2.74" y="1.88" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.025" y="-2.935" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="153CLV-0405">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="1.25" y1="-2.15" x2="-2.15" y2="-2.15" width="0.2032" layer="21"/>
-<wire x1="-2.15" y1="-2.15" x2="-2.15" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="-2.15" y1="-1.1" x2="-2.15" y2="1.1" width="0.2032" layer="51"/>
-<wire x1="-2.15" y1="1.1" x2="-2.15" y2="2.15" width="0.2032" layer="21"/>
-<wire x1="-2.15" y1="2.15" x2="1.25" y2="2.15" width="0.2032" layer="21"/>
-<wire x1="2.15" y1="1.25" x2="2.15" y2="1.1" width="0.2032" layer="21"/>
-<wire x1="2.15" y1="1.1" x2="2.15" y2="-1.05" width="0.2032" layer="51"/>
-<wire x1="2.15" y1="-1.05" x2="2.15" y2="-1.25" width="0.2032" layer="21"/>
-<wire x1="2.15" y1="-1.25" x2="1.25" y2="-2.15" width="0.2032" layer="21"/>
-<wire x1="1.25" y1="2.15" x2="2.15" y2="1.25" width="0.2032" layer="21"/>
-<wire x1="-1.65" y1="-0.95" x2="1.65" y2="-0.95" width="0.2032" layer="21" curve="120.136976"/>
-<wire x1="-1.65" y1="-0.95" x2="-1.65" y2="0.95" width="0.2032" layer="51" curve="-59.863024"/>
-<wire x1="-1.65" y1="0.95" x2="1.65" y2="0.95" width="0.2032" layer="21" curve="-120.136976"/>
-<wire x1="1.65" y1="-0.95" x2="1.65" y2="0.95" width="0.2032" layer="51" curve="59.863024"/>
-<smd name="+" x="1.8" y="0" dx="2.6" dy="1.6" layer="1"/>
-<smd name="-" x="-1.8" y="0" dx="2.6" dy="1.6" layer="1"/>
-<text x="-2.24" y="2.48" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.275" y="-3.735" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="153CLV-0505">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="1.75" y1="-2.65" x2="-2.65" y2="-2.65" width="0.2032" layer="21"/>
-<wire x1="-2.65" y1="-2.65" x2="-2.65" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="-2.65" y1="-1.1" x2="-2.65" y2="1.1" width="0.2032" layer="51"/>
-<wire x1="-2.65" y1="1.1" x2="-2.65" y2="2.65" width="0.2032" layer="21"/>
-<wire x1="-2.65" y1="2.65" x2="1.75" y2="2.65" width="0.2032" layer="21"/>
-<wire x1="2.65" y1="1.75" x2="2.65" y2="1.1" width="0.2032" layer="21"/>
-<wire x1="2.65" y1="1.1" x2="2.65" y2="-1.1" width="0.2032" layer="51"/>
-<wire x1="2.65" y1="-1.1" x2="2.65" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="2.65" y1="-1.75" x2="1.75" y2="-2.65" width="0.2032" layer="21"/>
-<wire x1="1.75" y1="2.65" x2="2.65" y2="1.75" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="-0.95" x2="2.2" y2="-0.95" width="0.2032" layer="21" curve="133.28887"/>
-<wire x1="-2.2" y1="-0.95" x2="-2.2" y2="0.95" width="0.2032" layer="51" curve="-46.71113"/>
-<wire x1="-2.2" y1="0.95" x2="2.2" y2="0.95" width="0.2032" layer="21" curve="-133.28887"/>
-<wire x1="2.2" y1="-0.95" x2="2.2" y2="0.95" width="0.2032" layer="51" curve="46.71113"/>
-<smd name="+" x="2.2" y="0" dx="3" dy="1.6" layer="1"/>
-<smd name="-" x="-2.2" y="0" dx="3" dy="1.6" layer="1"/>
-<text x="-2.74" y="2.98" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.775" y="-4.235" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="153CLV-0605">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="2.4" y1="-3.3" x2="-3.3" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="-3.3" y1="-3.3" x2="-3.3" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="-3.3" y1="-1.1" x2="-3.3" y2="1.1" width="0.2032" layer="51"/>
-<wire x1="-3.3" y1="1.1" x2="-3.3" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="-3.3" y1="3.3" x2="2.4" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="2.4" x2="3.3" y2="1.1" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="1.1" x2="3.3" y2="-1.1" width="0.2032" layer="51"/>
-<wire x1="3.3" y1="-1.1" x2="3.3" y2="-2.4" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="-2.4" x2="2.4" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="3.3" x2="3.3" y2="2.4" width="0.2032" layer="21"/>
-<wire x1="-2.95" y1="-0.9" x2="2.95" y2="-0.95" width="0.2032" layer="21" curve="145.181395"/>
-<wire x1="-2.95" y1="-0.9" x2="-2.95" y2="0.95" width="0.2032" layer="51" curve="-34.818605"/>
-<wire x1="-2.95" y1="0.95" x2="2.95" y2="0.9" width="0.2032" layer="21" curve="-145.181395"/>
-<wire x1="2.95" y1="-0.95" x2="2.95" y2="0.9" width="0.2032" layer="51" curve="34.818605"/>
-<smd name="+" x="2.7" y="0" dx="3.5" dy="1.6" layer="1"/>
-<smd name="-" x="-2.7" y="0" dx="3.5" dy="1.6" layer="1"/>
-<text x="-3.39" y="3.63" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.425" y="-4.885" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="153CLV-0807">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="3.3" y1="-4.2" x2="-4.2" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="-4.2" y1="-4.2" x2="-4.2" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="-4.2" y1="-1.1" x2="-4.2" y2="1.1" width="0.2032" layer="51"/>
-<wire x1="-4.2" y1="1.1" x2="-4.2" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="-4.2" y1="4.2" x2="3.3" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="3.3" x2="4.2" y2="1.1" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="1.1" x2="4.2" y2="-1.1" width="0.2032" layer="51"/>
-<wire x1="4.2" y1="-1.1" x2="4.2" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="-3.3" x2="3.3" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="4.2" x2="4.2" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="-3.75" y1="-1.05" x2="3.75" y2="-1.05" width="0.2032" layer="21" curve="148.008335"/>
-<wire x1="-3.75" y1="-1.05" x2="-3.75" y2="1.05" width="0.2032" layer="51" curve="-31.284493"/>
-<wire x1="-3.75" y1="1.05" x2="3.75" y2="1.05" width="0.2032" layer="21" curve="-148.008335"/>
-<wire x1="3.75" y1="1.05" x2="3.75" y2="-1.05" width="0.2032" layer="51" curve="-31.284493"/>
-<smd name="+" x="3.05" y="0" dx="4" dy="1.6" layer="1"/>
-<smd name="-" x="-3.05" y="0" dx="4" dy="1.6" layer="1"/>
-<text x="-4.29" y="4.53" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.325" y="-5.785" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="153CLV-0810">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="3.3" y1="-4.2" x2="-4.2" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="-4.2" y1="-4.2" x2="-4.2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-4.2" y1="-1.5" x2="-4.2" y2="1.5" width="0.2032" layer="51"/>
-<wire x1="-4.2" y1="1.5" x2="-4.2" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="-4.2" y1="4.2" x2="3.3" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="3.3" x2="4.2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="1.5" x2="4.2" y2="-1.5" width="0.2032" layer="51"/>
-<wire x1="4.2" y1="-1.5" x2="4.2" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="-3.3" x2="3.3" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="4.2" x2="4.2" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="-3.65" y1="-1.4" x2="3.65" y2="-1.4" width="0.2032" layer="21" curve="138.030204"/>
-<wire x1="-3.65" y1="-1.4" x2="-3.65" y2="1.4" width="0.2032" layer="51" curve="-41.969796"/>
-<wire x1="-3.65" y1="1.4" x2="3.65" y2="1.4" width="0.2032" layer="21" curve="-138.030204"/>
-<wire x1="3.65" y1="-1.4" x2="3.65" y2="1.4" width="0.2032" layer="51" curve="41.969796"/>
-<smd name="+" x="3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
-<smd name="-" x="-3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
-<text x="-4.29" y="4.53" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.325" y="-5.785" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="153CLV-1010">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="4.3" y1="-5.2" x2="-5.2" y2="-5.2" width="0.2032" layer="21"/>
-<wire x1="-5.2" y1="-5.2" x2="-5.2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-5.2" y1="-1.5" x2="-5.2" y2="1.5" width="0.2032" layer="51"/>
-<wire x1="-5.2" y1="1.5" x2="-5.2" y2="5.2" width="0.2032" layer="21"/>
-<wire x1="-5.2" y1="5.2" x2="4.3" y2="5.2" width="0.2032" layer="21"/>
-<wire x1="5.2" y1="4.3" x2="5.2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="5.2" y1="1.5" x2="5.2" y2="-1.5" width="0.2032" layer="51"/>
-<wire x1="5.2" y1="-1.5" x2="5.2" y2="-4.3" width="0.2032" layer="21"/>
-<wire x1="5.2" y1="-4.3" x2="4.3" y2="-5.2" width="0.2032" layer="21"/>
-<wire x1="4.3" y1="5.2" x2="5.2" y2="4.3" width="0.2032" layer="21"/>
-<wire x1="4.65" y1="-1.55" x2="4.65" y2="1.55" width="0.2032" layer="51" curve="36.869898"/>
-<wire x1="-4.65" y1="-1.55" x2="-4.65" y2="1.55" width="0.2032" layer="51" curve="-36.869898"/>
-<wire x1="-4.65" y1="-1.55" x2="4.65" y2="-1.55" width="0.2032" layer="21" curve="143.130102"/>
-<wire x1="-4.65" y1="1.55" x2="4.65" y2="1.55" width="0.2032" layer="21" curve="-143.130102"/>
-<smd name="+" x="4" y="0" dx="4" dy="2.5" layer="1"/>
-<smd name="-" x="-4" y="0" dx="4" dy="2.5" layer="1"/>
-<text x="-5.29" y="5.53" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.325" y="-6.785" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="153CLV-1012">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="4.3" y1="-5.2" x2="-5.2" y2="-5.2" width="0.2032" layer="21"/>
-<wire x1="-5.2" y1="-5.2" x2="-5.2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-5.2" y1="-1.5" x2="-5.2" y2="1.5" width="0.2032" layer="51"/>
-<wire x1="-5.2" y1="1.5" x2="-5.2" y2="5.2" width="0.2032" layer="21"/>
-<wire x1="-5.2" y1="5.2" x2="4.3" y2="5.2" width="0.2032" layer="21"/>
-<wire x1="5.2" y1="4.3" x2="5.2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="5.2" y1="1.5" x2="5.2" y2="-1.5" width="0.2032" layer="51"/>
-<wire x1="5.2" y1="-1.5" x2="5.2" y2="-4.3" width="0.2032" layer="21"/>
-<wire x1="5.2" y1="-4.3" x2="4.3" y2="-5.2" width="0.2032" layer="21"/>
-<wire x1="4.3" y1="5.2" x2="5.2" y2="4.3" width="0.2032" layer="21"/>
-<wire x1="4.65" y1="-1.55" x2="4.65" y2="1.55" width="0.2032" layer="51" curve="36.869898"/>
-<wire x1="-4.65" y1="-1.55" x2="-4.65" y2="1.55" width="0.2032" layer="51" curve="-36.869898"/>
-<wire x1="-4.65" y1="-1.55" x2="4.65" y2="-1.55" width="0.2032" layer="21" curve="143.130102"/>
-<wire x1="-4.65" y1="1.55" x2="4.65" y2="1.55" width="0.2032" layer="21" curve="-143.130102"/>
-<smd name="+" x="4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
-<smd name="-" x="-4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
-<text x="-5.29" y="5.53" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.325" y="-6.785" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="153CLV-1014">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="4.3" y1="-5.2" x2="-5.2" y2="-5.2" width="0.2032" layer="21"/>
-<wire x1="-5.2" y1="-5.2" x2="-5.2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-5.2" y1="-1.5" x2="-5.2" y2="1.5" width="0.2032" layer="51"/>
-<wire x1="-5.2" y1="1.5" x2="-5.2" y2="5.2" width="0.2032" layer="21"/>
-<wire x1="-5.2" y1="5.2" x2="4.3" y2="5.2" width="0.2032" layer="21"/>
-<wire x1="5.2" y1="4.3" x2="5.2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="5.2" y1="1.5" x2="5.2" y2="-1.5" width="0.2032" layer="51"/>
-<wire x1="5.2" y1="-1.5" x2="5.2" y2="-4.3" width="0.2032" layer="21"/>
-<wire x1="5.2" y1="-4.3" x2="4.3" y2="-5.2" width="0.2032" layer="21"/>
-<wire x1="4.3" y1="5.2" x2="5.2" y2="4.3" width="0.2032" layer="21"/>
-<wire x1="4.65" y1="-1.55" x2="4.65" y2="1.55" width="0.2032" layer="51" curve="36.869898"/>
-<wire x1="-4.65" y1="-1.55" x2="-4.65" y2="1.55" width="0.2032" layer="51" curve="-36.869898"/>
-<wire x1="-4.65" y1="-1.55" x2="4.65" y2="-1.55" width="0.2032" layer="21" curve="143.130102"/>
-<wire x1="-4.65" y1="1.55" x2="4.65" y2="1.55" width="0.2032" layer="21" curve="-143.130102"/>
-<smd name="+" x="4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
-<smd name="-" x="-4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
-<text x="-5.29" y="5.53" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.325" y="-6.785" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="175TMP-0808">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="3.2" y1="-4.1" x2="-4.1" y2="-4.1" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="-1.55" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="-1.55" x2="-4.1" y2="1.55" width="0.2032" layer="51"/>
-<wire x1="-4.1" y1="1.55" x2="-4.1" y2="4.1" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="4.1" x2="3.2" y2="4.1" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="3.2" x2="4.1" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="1.5" x2="4.1" y2="-1.55" width="0.2032" layer="51"/>
-<wire x1="4.1" y1="-1.55" x2="4.1" y2="-3.2" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-3.2" x2="3.2" y2="-4.1" width="0.2032" layer="21"/>
-<wire x1="3.2" y1="4.1" x2="4.1" y2="3.2" width="0.2032" layer="21"/>
-<wire x1="-3.6" y1="-1.45" x2="3.6" y2="-1.45" width="0.2032" layer="21" curve="136.123039"/>
-<wire x1="-3.6" y1="-1.45" x2="-3.6" y2="1.45" width="0.2032" layer="51" curve="-43.876961"/>
-<wire x1="-3.6" y1="1.45" x2="3.6" y2="1.45" width="0.2032" layer="21" curve="-136.123039"/>
-<wire x1="3.6" y1="1.45" x2="3.6" y2="-1.45" width="0.2032" layer="51" curve="-43.876961"/>
-<smd name="+" x="3.5" y="0" dx="3" dy="2.5" layer="1"/>
-<smd name="-" x="-3.5" y="0" dx="3" dy="2.5" layer="1"/>
-<text x="-4.29" y="4.53" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.325" y="-5.785" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="175TMP-0810">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="3.2" y1="-4.1" x2="-4.1" y2="-4.1" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="-1.55" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="-1.55" x2="-4.1" y2="1.55" width="0.2032" layer="51"/>
-<wire x1="-4.1" y1="1.55" x2="-4.1" y2="4.1" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="4.1" x2="3.2" y2="4.1" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="3.2" x2="4.1" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="1.5" x2="4.1" y2="-1.55" width="0.2032" layer="51"/>
-<wire x1="4.1" y1="-1.55" x2="4.1" y2="-3.2" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-3.2" x2="3.2" y2="-4.1" width="0.2032" layer="21"/>
-<wire x1="3.2" y1="4.1" x2="4.1" y2="3.2" width="0.2032" layer="21"/>
-<wire x1="-3.6" y1="-1.45" x2="3.6" y2="-1.45" width="0.2032" layer="21" curve="136.123039"/>
-<wire x1="-3.6" y1="-1.45" x2="-3.6" y2="1.45" width="0.2032" layer="51" curve="-43.876961"/>
-<wire x1="-3.6" y1="1.45" x2="3.6" y2="1.45" width="0.2032" layer="21" curve="-136.123039"/>
-<wire x1="3.6" y1="-1.45" x2="3.6" y2="1.45" width="0.2032" layer="51" curve="43.876961"/>
-<smd name="+" x="3.5" y="0" dx="3" dy="2.5" layer="1"/>
-<smd name="-" x="-3.5" y="0" dx="3" dy="2.5" layer="1"/>
-<text x="-4.29" y="4.53" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.325" y="-5.785" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="A/3216-18R">
-<description>&lt;b&gt;Chip Capacitor Type KEMET A / EIA 3216-18 reflow solder&lt;/b&gt;&lt;p&gt;KEMET S / EIA 3216-12</description>
-<wire x1="-1.45" y1="0.6" x2="1.45" y2="0.6" width="0.1016" layer="51"/>
-<wire x1="1.45" y1="0.6" x2="1.45" y2="-0.6" width="0.1016" layer="51"/>
-<wire x1="1.45" y1="-0.6" x2="-1.45" y2="-0.6" width="0.1016" layer="51"/>
-<wire x1="-1.45" y1="-0.6" x2="-1.45" y2="0.6" width="0.1016" layer="51"/>
-<smd name="+" x="1.375" y="0" dx="1.95" dy="1.5" layer="1"/>
-<smd name="-" x="-1.375" y="0" dx="1.95" dy="1.5" layer="1"/>
-<text x="-1.95" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.95" y="-2.325" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6" y1="-0.6" x2="-1.475" y2="0.6" layer="51"/>
-<rectangle x1="1.475" y1="-0.6" x2="1.6" y2="0.6" layer="51"/>
-<rectangle x1="0.8" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
-</package>
 <package name="A/3216-18W">
 <description>&lt;b&gt;Chip Capacitor Type KEMET A / EIA 3216-18 Wave solder&lt;/b&gt;&lt;p&gt;
 KEMET S / EIA 3216-12</description>
@@ -11647,20 +10922,6 @@ KEMET S / EIA 3216-12</description>
 <rectangle x1="-1.6" y1="-0.6" x2="-1.475" y2="0.6" layer="51"/>
 <rectangle x1="1.475" y1="-0.6" x2="1.6" y2="0.6" layer="51"/>
 <rectangle x1="0.8" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
-</package>
-<package name="B/3528-21R">
-<description>&lt;b&gt;Chip Capacitor Type KEMET B / EIA 3528-21 reflow solder&lt;/b&gt;&lt;p&gt;KEMET T / EIA 3528-12</description>
-<wire x1="-1.6" y1="1.2" x2="1.6" y2="1.2" width="0.1016" layer="51"/>
-<wire x1="1.6" y1="1.2" x2="1.6" y2="-1.2" width="0.1016" layer="51"/>
-<wire x1="1.6" y1="-1.2" x2="-1.6" y2="-1.2" width="0.1016" layer="51"/>
-<wire x1="-1.6" y1="-1.2" x2="-1.6" y2="1.2" width="0.1016" layer="51"/>
-<smd name="+" x="1.525" y="0" dx="1.95" dy="2.5" layer="1"/>
-<smd name="-" x="-1.525" y="0" dx="1.95" dy="2.5" layer="1"/>
-<text x="-1.95" y="1.6" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.95" y="-2.925" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.75" y1="-0.6" x2="-1.625" y2="0.6" layer="51"/>
-<rectangle x1="1.625" y1="-0.6" x2="1.75" y2="0.6" layer="51"/>
-<rectangle x1="0.95" y1="-1.225" x2="1.25" y2="1.225" layer="51"/>
 </package>
 <package name="B/3528-21W">
 <description>&lt;b&gt;Chip Capacitor Type KEMET B / EIA 3528-21 Wave solder&lt;/b&gt;&lt;p&gt;
@@ -11677,20 +10938,6 @@ KEMET T / EIA 3528-12</description>
 <rectangle x1="1.625" y1="-0.6" x2="1.75" y2="0.6" layer="51"/>
 <rectangle x1="0.95" y1="-1.225" x2="1.25" y2="1.225" layer="51"/>
 </package>
-<package name="C/6032-28R">
-<description>&lt;b&gt;Chip Capacitor Type KEMET C / EIA 6032-28 reflow solder&lt;/b&gt;&lt;p&gt;KEMET U / EIA 6032-15</description>
-<wire x1="-2.8" y1="1.55" x2="2.8" y2="1.55" width="0.1016" layer="51"/>
-<wire x1="2.8" y1="1.55" x2="2.8" y2="-1.55" width="0.1016" layer="51"/>
-<wire x1="2.8" y1="-1.55" x2="-2.8" y2="-1.55" width="0.1016" layer="51"/>
-<wire x1="-2.8" y1="-1.55" x2="-2.8" y2="1.55" width="0.1016" layer="51"/>
-<smd name="+" x="2.525" y="0" dx="2.55" dy="2.5" layer="1"/>
-<smd name="-" x="-2.525" y="0" dx="2.55" dy="2.5" layer="1"/>
-<text x="-3" y="1.825" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="-3.05" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3" y1="-1.1" x2="-2.85" y2="1.1" layer="51"/>
-<rectangle x1="2.85" y1="-1.1" x2="3" y2="1.1" layer="51"/>
-<rectangle x1="1.95" y1="-1.575" x2="2.45" y2="1.575" layer="51"/>
-</package>
 <package name="C/6032-28W">
 <description>&lt;b&gt;Chip Capacitor Type KEMET C / EIA 6032-28 Wafe solder&lt;/b&gt;&lt;p&gt;
 KEMET U / EIA 6032-15</description>
@@ -11705,20 +10952,6 @@ KEMET U / EIA 6032-15</description>
 <rectangle x1="-3" y1="-1.1" x2="-2.85" y2="1.1" layer="51"/>
 <rectangle x1="2.85" y1="-1.1" x2="3" y2="1.1" layer="51"/>
 <rectangle x1="1.95" y1="-1.575" x2="2.45" y2="1.575" layer="51"/>
-</package>
-<package name="D/7343-31R">
-<description>&lt;b&gt;Chip Capacitor Type KEMET D / EIA 7343-21&lt;/b&gt;&lt;p&gt;KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 reflow solder</description>
-<wire x1="-3.45" y1="2.1" x2="3.45" y2="2.1" width="0.1016" layer="51"/>
-<wire x1="3.45" y1="2.1" x2="3.45" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="3.45" y1="-2.1" x2="-3.45" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="-3.45" y1="-2.1" x2="-3.45" y2="2.1" width="0.1016" layer="51"/>
-<smd name="+" x="3.175" y="0" dx="2.55" dy="2.7" layer="1"/>
-<smd name="-" x="-3.175" y="0" dx="2.55" dy="2.7" layer="1"/>
-<text x="-3.65" y="2.3" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.65" y="-3.575" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.65" y1="-1.2" x2="-3.5" y2="1.2" layer="51"/>
-<rectangle x1="3.5" y1="-1.2" x2="3.65" y2="1.2" layer="51"/>
-<rectangle x1="2.675" y1="-2.125" x2="3.15" y2="2.125" layer="51"/>
 </package>
 <package name="D/7343-31W">
 <description>&lt;b&gt;Chip Capacitor Type KEMET D / EIA 7343-21&lt;/b&gt;&lt;p&gt;
@@ -11735,20 +10968,6 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <rectangle x1="3.5" y1="-1.2" x2="3.65" y2="1.2" layer="51"/>
 <rectangle x1="2.675" y1="-2.125" x2="3.15" y2="2.125" layer="51"/>
 </package>
-<package name="E/7260-38R">
-<description>&lt;b&gt;Chip Capacitor Type KEMET E / EIA 7260-38 reflow solder&lt;/b&gt;</description>
-<wire x1="-3.45" y1="2.95" x2="3.45" y2="2.95" width="0.1016" layer="51"/>
-<wire x1="3.45" y1="2.95" x2="3.45" y2="-2.95" width="0.1016" layer="51"/>
-<wire x1="3.45" y1="-2.95" x2="-3.45" y2="-2.95" width="0.1016" layer="51"/>
-<wire x1="-3.45" y1="-2.95" x2="-3.45" y2="2.95" width="0.1016" layer="51"/>
-<smd name="+" x="3.175" y="0" dx="2.55" dy="4.4" layer="1"/>
-<smd name="-" x="-3.175" y="0" dx="2.55" dy="4.4" layer="1"/>
-<text x="-4.45" y="3.15" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.45" y="-4.475" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.65" y1="-2.05" x2="-3.5" y2="2.05" layer="51"/>
-<rectangle x1="3.5" y1="-2.05" x2="3.65" y2="2.05" layer="51"/>
-<rectangle x1="2.675" y1="-2.975" x2="3.15" y2="2.975" layer="51"/>
-</package>
 <package name="E/7260-38W">
 <description>&lt;b&gt;Chip Capacitor Type KEMET E / EIA 7260-38 Wafe solder&lt;/b&gt;</description>
 <wire x1="-3.45" y1="2.95" x2="3.45" y2="2.95" width="0.1016" layer="51"/>
@@ -11763,20 +10982,6 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <rectangle x1="3.5" y1="-2.05" x2="3.65" y2="2.05" layer="51"/>
 <rectangle x1="2.675" y1="-2.975" x2="3.15" y2="2.975" layer="51"/>
 </package>
-<package name="R/2012-12R">
-<description>&lt;b&gt;Chip Capacitor Type KEMET R/EIA 2012-12 reflow solder&lt;/b&gt;</description>
-<wire x1="-0.85" y1="0.6" x2="0.85" y2="0.6" width="0.1016" layer="51"/>
-<wire x1="0.85" y1="0.6" x2="0.85" y2="-0.6" width="0.1016" layer="51"/>
-<wire x1="0.85" y1="-0.6" x2="-0.85" y2="-0.6" width="0.1016" layer="51"/>
-<wire x1="-0.85" y1="-0.6" x2="-0.85" y2="0.6" width="0.1016" layer="51"/>
-<smd name="+" x="1.175" y="0" dx="1.55" dy="1.8" layer="1"/>
-<smd name="-" x="-1.175" y="0" dx="1.55" dy="1.8" layer="1"/>
-<text x="-1.95" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.95" y="-2.325" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1" y1="-0.45" x2="-0.875" y2="0.45" layer="51"/>
-<rectangle x1="0.875" y1="-0.45" x2="1" y2="0.45" layer="51"/>
-<rectangle x1="0.3" y1="-0.625" x2="0.5" y2="0.625" layer="51"/>
-</package>
 <package name="R/2012-12W">
 <description>&lt;b&gt;Chip Capacitor Type KEMET R/EIA 2012-12 Wafe solder&lt;/b&gt;</description>
 <wire x1="-0.85" y1="0.6" x2="0.85" y2="0.6" width="0.1016" layer="51"/>
@@ -11790,262 +10995,6 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <rectangle x1="-1" y1="-0.45" x2="-0.875" y2="0.45" layer="51"/>
 <rectangle x1="0.875" y1="-0.45" x2="1" y2="0.45" layer="51"/>
 <rectangle x1="0.3" y1="-0.625" x2="0.5" y2="0.625" layer="51"/>
-</package>
-<package name="PANASONIC_A">
-<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package A&lt;/b&gt;</description>
-<wire x1="-1.6" y1="1.6" x2="0.8" y2="1.6" width="0.1016" layer="51"/>
-<wire x1="0.8" y1="1.6" x2="1.6" y2="0.8" width="0.1016" layer="51"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1016" layer="51"/>
-<wire x1="1.6" y1="-0.8" x2="0.8" y2="-1.6" width="0.1016" layer="51"/>
-<wire x1="0.8" y1="-1.6" x2="-1.6" y2="-1.6" width="0.1016" layer="51"/>
-<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="1.6" width="0.1016" layer="51"/>
-<wire x1="-1.1" y1="0.95" x2="1.1" y2="0.95" width="0.1016" layer="21" curve="-98.369832"/>
-<wire x1="-1.1" y1="-0.95" x2="1.15" y2="-0.9" width="0.1016" layer="21" curve="101.144396"/>
-<wire x1="-1.6" y1="0.95" x2="-1.6" y2="1.6" width="0.1016" layer="21"/>
-<wire x1="-1.6" y1="1.6" x2="0.8" y2="1.6" width="0.1016" layer="21"/>
-<wire x1="0.8" y1="1.6" x2="1.5" y2="0.9" width="0.1016" layer="21"/>
-<wire x1="1.5" y1="-0.9" x2="0.8" y2="-1.6" width="0.1016" layer="21"/>
-<wire x1="0.8" y1="-1.6" x2="-1.6" y2="-1.6" width="0.1016" layer="21"/>
-<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="-0.95" width="0.1016" layer="21"/>
-<wire x1="-0.8" y1="1.2" x2="-0.8" y2="-1.2" width="0.1016" layer="51"/>
-<circle x="0" y="0" radius="1.45" width="0.1016" layer="51"/>
-<smd name="-" x="-1.3" y="0" dx="2" dy="1.5" layer="1"/>
-<smd name="+" x="1.3" y="0" dx="2" dy="1.5" layer="1"/>
-<text x="-1.65" y="1.75" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.65" y="-2.825" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.8" y1="-0.3" x2="-1.45" y2="0.3" layer="51"/>
-<rectangle x1="1.45" y1="-0.3" x2="1.8" y2="0.3" layer="51"/>
-<polygon width="0.1016" layer="51">
-<vertex x="-0.85" y="1.1"/>
-<vertex x="-1.15" y="0.8"/>
-<vertex x="-1.35" y="0.3"/>
-<vertex x="-1.35" y="-0.3"/>
-<vertex x="-1.15" y="-0.8"/>
-<vertex x="-0.85" y="-1.1"/>
-<vertex x="-0.85" y="1.05"/>
-</polygon>
-</package>
-<package name="PANASONIC_B">
-<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package B&lt;/b&gt;</description>
-<wire x1="-2.1" y1="2.1" x2="1" y2="2.1" width="0.1016" layer="51"/>
-<wire x1="1" y1="2.1" x2="2.1" y2="1" width="0.1016" layer="51"/>
-<wire x1="2.1" y1="1" x2="2.1" y2="-1" width="0.1016" layer="51"/>
-<wire x1="2.1" y1="-1" x2="1" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="1" y1="-2.1" x2="-2.1" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="-2.1" y1="-2.1" x2="-2.1" y2="2.1" width="0.1016" layer="51"/>
-<wire x1="-1.75" y1="0.85" x2="1.75" y2="0.85" width="0.1016" layer="21" curve="-128.186984"/>
-<wire x1="-1.75" y1="-0.85" x2="1.75" y2="-0.85" width="0.1016" layer="21" curve="128.186984"/>
-<wire x1="-2.1" y1="0.85" x2="-2.1" y2="2.1" width="0.1016" layer="21"/>
-<wire x1="-2.1" y1="2.1" x2="1" y2="2.1" width="0.1016" layer="21"/>
-<wire x1="1" y1="2.1" x2="2.1" y2="1" width="0.1016" layer="21"/>
-<wire x1="2.1" y1="-1" x2="1" y2="-2.1" width="0.1016" layer="21"/>
-<wire x1="1" y1="-2.1" x2="-2.1" y2="-2.1" width="0.1016" layer="21"/>
-<wire x1="-2.1" y1="-2.1" x2="-2.1" y2="-0.85" width="0.1016" layer="21"/>
-<wire x1="-1.2" y1="1.5" x2="-1.2" y2="-1.5" width="0.1016" layer="51"/>
-<circle x="0" y="0" radius="1.95" width="0.1016" layer="51"/>
-<smd name="-" x="-1.6" y="0" dx="2.2" dy="1.4" layer="1"/>
-<smd name="+" x="1.6" y="0" dx="2.2" dy="1.4" layer="1"/>
-<text x="-2.15" y="2.3" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.15" y="-3.275" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.3" y1="-0.35" x2="-1.85" y2="0.35" layer="51"/>
-<rectangle x1="1.9" y1="-0.35" x2="2.3" y2="0.35" layer="51"/>
-<polygon width="0.1016" layer="51">
-<vertex x="-1.25" y="1.45"/>
-<vertex x="-1.7" y="0.85"/>
-<vertex x="-1.85" y="0.35"/>
-<vertex x="-1.85" y="-0.4"/>
-<vertex x="-1.7" y="-0.85"/>
-<vertex x="-1.25" y="-1.4"/>
-<vertex x="-1.25" y="1.4"/>
-</polygon>
-</package>
-<package name="PANASONIC_C">
-<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package C&lt;/b&gt;</description>
-<wire x1="-2.6" y1="2.6" x2="1.25" y2="2.6" width="0.1016" layer="51"/>
-<wire x1="1.25" y1="2.6" x2="2.6" y2="1.25" width="0.1016" layer="51"/>
-<wire x1="2.6" y1="1.25" x2="2.6" y2="-1.25" width="0.1016" layer="51"/>
-<wire x1="2.6" y1="-1.25" x2="1.25" y2="-2.6" width="0.1016" layer="51"/>
-<wire x1="1.25" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1016" layer="51"/>
-<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="2.6" width="0.1016" layer="51"/>
-<wire x1="-2.6" y1="0.95" x2="-2.6" y2="2.6" width="0.1016" layer="21"/>
-<wire x1="-2.6" y1="2.6" x2="1.25" y2="2.6" width="0.1016" layer="21"/>
-<wire x1="1.25" y1="2.6" x2="2.6" y2="1.25" width="0.1016" layer="21"/>
-<wire x1="2.6" y1="1.25" x2="2.6" y2="0.95" width="0.1016" layer="21"/>
-<wire x1="2.6" y1="-0.95" x2="2.6" y2="-1.25" width="0.1016" layer="21"/>
-<wire x1="2.6" y1="-1.25" x2="1.25" y2="-2.6" width="0.1016" layer="21"/>
-<wire x1="1.25" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1016" layer="21"/>
-<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="-0.95" width="0.1016" layer="21"/>
-<wire x1="-2.3" y1="0.85" x2="2.3" y2="0.85" width="0.1016" layer="21" curve="-139.434882"/>
-<wire x1="-2.3" y1="-0.85" x2="2.3" y2="-0.85" width="0.1016" layer="21" curve="139.434882"/>
-<wire x1="-1.55" y1="1.85" x2="-1.55" y2="-1.85" width="0.1016" layer="51"/>
-<circle x="0" y="0" radius="2.45" width="0.1016" layer="51"/>
-<smd name="-" x="-2.05" y="0" dx="2.6" dy="1.4" layer="1"/>
-<smd name="+" x="2.05" y="0" dx="2.6" dy="1.4" layer="1"/>
-<text x="-2.6" y="2.75" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.65" y="-3.775" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.95" y1="-0.35" x2="-2.4" y2="0.35" layer="51"/>
-<rectangle x1="2.4" y1="-0.35" x2="2.95" y2="0.35" layer="51"/>
-<polygon width="0.1016" layer="51">
-<vertex x="-1.6" y="1.8"/>
-<vertex x="-2" y="1.35"/>
-<vertex x="-2.25" y="0.75"/>
-<vertex x="-2.45" y="0.05"/>
-<vertex x="-2.25" y="-0.75"/>
-<vertex x="-1.95" y="-1.35"/>
-<vertex x="-1.6" y="-1.8"/>
-</polygon>
-</package>
-<package name="PANASONIC_D">
-<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package D&lt;/b&gt;</description>
-<wire x1="-3.25" y1="3.25" x2="1.55" y2="3.25" width="0.1016" layer="51"/>
-<wire x1="1.55" y1="3.25" x2="3.25" y2="1.55" width="0.1016" layer="51"/>
-<wire x1="3.25" y1="1.55" x2="3.25" y2="-1.55" width="0.1016" layer="51"/>
-<wire x1="3.25" y1="-1.55" x2="1.55" y2="-3.25" width="0.1016" layer="51"/>
-<wire x1="1.55" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="51"/>
-<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="3.25" width="0.1016" layer="51"/>
-<wire x1="-3.25" y1="0.95" x2="-3.25" y2="3.25" width="0.1016" layer="21"/>
-<wire x1="-3.25" y1="3.25" x2="1.55" y2="3.25" width="0.1016" layer="21"/>
-<wire x1="1.55" y1="3.25" x2="3.25" y2="1.55" width="0.1016" layer="21"/>
-<wire x1="3.25" y1="1.55" x2="3.25" y2="0.95" width="0.1016" layer="21"/>
-<wire x1="3.25" y1="-0.95" x2="3.25" y2="-1.55" width="0.1016" layer="21"/>
-<wire x1="3.25" y1="-1.55" x2="1.55" y2="-3.25" width="0.1016" layer="21"/>
-<wire x1="1.55" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="21"/>
-<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="-0.95" width="0.1016" layer="21"/>
-<wire x1="-2.95" y1="0.95" x2="2.95" y2="0.95" width="0.1016" layer="21" curve="-144.299363"/>
-<wire x1="-2.95" y1="-0.95" x2="2.95" y2="-0.95" width="0.1016" layer="21" curve="144.299363"/>
-<wire x1="-2.1" y1="2.25" x2="-2.1" y2="-2.2" width="0.1016" layer="51"/>
-<circle x="0" y="0" radius="3.1" width="0.1016" layer="51"/>
-<smd name="-" x="-2.4" y="0" dx="3" dy="1.4" layer="1"/>
-<smd name="+" x="2.4" y="0" dx="3" dy="1.4" layer="1"/>
-<text x="-1.75" y="1" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.75" y="-1.975" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.65" y1="-0.35" x2="-3.05" y2="0.35" layer="51"/>
-<rectangle x1="3.05" y1="-0.35" x2="3.65" y2="0.35" layer="51"/>
-<polygon width="0.1016" layer="51">
-<vertex x="-2.15" y="2.15"/>
-<vertex x="-2.6" y="1.6"/>
-<vertex x="-2.9" y="0.9"/>
-<vertex x="-3.05" y="0"/>
-<vertex x="-2.9" y="-0.95"/>
-<vertex x="-2.55" y="-1.65"/>
-<vertex x="-2.15" y="-2.15"/>
-<vertex x="-2.15" y="2.1"/>
-</polygon>
-</package>
-<package name="PANASONIC_E">
-<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package E&lt;/b&gt;</description>
-<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="51"/>
-<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="51"/>
-<wire x1="4.1" y1="1.8" x2="4.1" y2="-1.8" width="0.1016" layer="51"/>
-<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="51"/>
-<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="51"/>
-<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="4.1" width="0.1016" layer="51"/>
-<wire x1="-4.1" y1="0.9" x2="-4.1" y2="4.1" width="0.1016" layer="21"/>
-<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="21"/>
-<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="21"/>
-<wire x1="4.1" y1="1.8" x2="4.1" y2="0.9" width="0.1016" layer="21"/>
-<wire x1="4.1" y1="-0.9" x2="4.1" y2="-1.8" width="0.1016" layer="21"/>
-<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="21"/>
-<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="21"/>
-<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="-0.9" width="0.1016" layer="21"/>
-<wire x1="-2.2" y1="3.25" x2="-2.2" y2="-3.25" width="0.1016" layer="51"/>
-<wire x1="-3.85" y1="0.9" x2="3.85" y2="0.9" width="0.1016" layer="21" curve="-153.684915"/>
-<wire x1="-3.85" y1="-0.9" x2="3.85" y2="-0.9" width="0.1016" layer="21" curve="153.684915"/>
-<circle x="0" y="0" radius="3.95" width="0.1016" layer="51"/>
-<smd name="-" x="-3" y="0" dx="3.8" dy="1.4" layer="1"/>
-<smd name="+" x="3" y="0" dx="3.8" dy="1.4" layer="1"/>
-<text x="-1.8" y="1.3" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.8" y="-2.225" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-4.5" y1="-0.35" x2="-3.8" y2="0.35" layer="51"/>
-<rectangle x1="3.8" y1="-0.35" x2="4.5" y2="0.35" layer="51"/>
-<polygon width="0.1016" layer="51">
-<vertex x="-2.25" y="3.2"/>
-<vertex x="-3" y="2.5"/>
-<vertex x="-3.6" y="1.5"/>
-<vertex x="-3.85" y="0.65"/>
-<vertex x="-3.85" y="-0.65"/>
-<vertex x="-3.55" y="-1.6"/>
-<vertex x="-2.95" y="-2.55"/>
-<vertex x="-2.25" y="-3.2"/>
-<vertex x="-2.25" y="3.15"/>
-</polygon>
-</package>
-<package name="PANASONIC_F">
-<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package F&lt;/b&gt;</description>
-<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="51"/>
-<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="51"/>
-<wire x1="4.1" y1="1.8" x2="4.1" y2="-1.8" width="0.1016" layer="51"/>
-<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="51"/>
-<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="51"/>
-<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="4.1" width="0.1016" layer="51"/>
-<wire x1="-4.1" y1="1" x2="-4.1" y2="4.1" width="0.1016" layer="21"/>
-<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="21"/>
-<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="21"/>
-<wire x1="4.1" y1="1.8" x2="4.1" y2="1" width="0.1016" layer="21"/>
-<wire x1="4.1" y1="-1" x2="4.1" y2="-1.8" width="0.1016" layer="21"/>
-<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="21"/>
-<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="21"/>
-<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="-1" width="0.1016" layer="21"/>
-<wire x1="-2.2" y1="3.25" x2="-2.2" y2="-3.25" width="0.1016" layer="51"/>
-<wire x1="-3.85" y1="0.9" x2="3.85" y2="0.9" width="0.1016" layer="21" curve="-153.684915"/>
-<wire x1="-3.85" y1="-0.9" x2="3.85" y2="-0.9" width="0.1016" layer="21" curve="153.684915"/>
-<circle x="0" y="0" radius="4" width="0.001" layer="51"/>
-<circle x="0" y="0" radius="3.95" width="0.1016" layer="51"/>
-<smd name="-" x="-3.55" y="0" dx="4" dy="1.6" layer="1"/>
-<smd name="+" x="3.55" y="0" dx="4" dy="1.6" layer="1"/>
-<text x="-1.75" y="1.3" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.75" y="-2.375" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-4.85" y1="-0.45" x2="-3.9" y2="0.45" layer="51"/>
-<rectangle x1="3.9" y1="-0.45" x2="4.85" y2="0.45" layer="51"/>
-<polygon width="0.1016" layer="51">
-<vertex x="-2.25" y="3.2"/>
-<vertex x="-3" y="2.5"/>
-<vertex x="-3.6" y="1.5"/>
-<vertex x="-3.85" y="0.65"/>
-<vertex x="-3.85" y="-0.65"/>
-<vertex x="-3.55" y="-1.6"/>
-<vertex x="-2.95" y="-2.55"/>
-<vertex x="-2.25" y="-3.2"/>
-<vertex x="-2.25" y="3.15"/>
-</polygon>
-</package>
-<package name="PANASONIC_G">
-<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package G&lt;/b&gt;</description>
-<wire x1="-5.1" y1="5.1" x2="2.8" y2="5.1" width="0.1016" layer="51"/>
-<wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.1016" layer="51"/>
-<wire x1="5.1" y1="2.8" x2="5.1" y2="-2.8" width="0.1016" layer="51"/>
-<wire x1="5.1" y1="-2.8" x2="2.8" y2="-5.1" width="0.1016" layer="51"/>
-<wire x1="2.8" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="51"/>
-<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="5.1" width="0.1016" layer="51"/>
-<wire x1="-5.1" y1="1" x2="-5.1" y2="5.1" width="0.1016" layer="21"/>
-<wire x1="-5.1" y1="5.1" x2="2.8" y2="5.1" width="0.1016" layer="21"/>
-<wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.1016" layer="21"/>
-<wire x1="5.1" y1="2.8" x2="5.1" y2="1" width="0.1016" layer="21"/>
-<wire x1="5.1" y1="-1" x2="5.1" y2="-2.8" width="0.1016" layer="21"/>
-<wire x1="5.1" y1="-2.8" x2="2.8" y2="-5.1" width="0.1016" layer="21"/>
-<wire x1="2.8" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="21"/>
-<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="-1" width="0.1016" layer="21"/>
-<wire x1="-4.85" y1="-1" x2="4.85" y2="-1" width="0.1016" layer="21" curve="156.699401"/>
-<wire x1="-4.85" y1="1" x2="4.85" y2="1" width="0.1016" layer="21" curve="-156.699401"/>
-<wire x1="-3.25" y1="3.7" x2="-3.25" y2="-3.65" width="0.1016" layer="51"/>
-<circle x="0" y="0" radius="4.95" width="0.1016" layer="51"/>
-<smd name="-" x="-4.25" y="0" dx="3.9" dy="1.6" layer="1"/>
-<smd name="+" x="4.25" y="0" dx="3.9" dy="1.6" layer="1"/>
-<text x="-2.55" y="1.75" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.55" y="-2.675" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-5.85" y1="-0.45" x2="-4.9" y2="0.45" layer="51"/>
-<rectangle x1="4.9" y1="-0.45" x2="5.85" y2="0.45" layer="51"/>
-<polygon width="0.1016" layer="51">
-<vertex x="-3.3" y="3.6"/>
-<vertex x="-4.05" y="2.75"/>
-<vertex x="-4.65" y="1.55"/>
-<vertex x="-4.85" y="0.45"/>
-<vertex x="-4.85" y="-0.45"/>
-<vertex x="-4.65" y="-1.55"/>
-<vertex x="-4.05" y="-2.75"/>
-<vertex x="-3.3" y="-3.6"/>
-<vertex x="-3.3" y="3.55"/>
-</polygon>
 </package>
 <package name="TT2D5L">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -12095,686 +11044,1071 @@ grid 2.54 mm, diameter 6 mm</description>
 <text x="2.667" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
-<package name="SMC_A">
-<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
-Source: www.farnell.com/datasheets/247.pdf</description>
-<wire x1="-1.45" y1="0.75" x2="1.45" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="1.45" y1="0.75" x2="1.45" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="1.45" y1="-0.75" x2="-1.45" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-1.45" y1="-0.75" x2="-1.45" y2="0.75" width="0.1016" layer="51"/>
-<smd name="+" x="-1.5" y="0" dx="1.6" dy="1.4" layer="1"/>
-<smd name="-" x="1.5" y="0" dx="1.6" dy="1.4" layer="1" rot="R180"/>
-<text x="-1.6" y="0.975" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.6" y="-2" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6" y1="-0.6" x2="-1.4" y2="0.6" layer="51"/>
-<rectangle x1="1.4" y1="-0.6" x2="1.6" y2="0.6" layer="51" rot="R180"/>
-<rectangle x1="-1.45" y1="-0.75" x2="-0.8" y2="0.75" layer="51"/>
+<package name="CT3216">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip
+tantalum</description>
+<wire x1="-2.973" y1="1.483" x2="2.973" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.973" y1="-1.483" x2="-2.973" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.973" y1="-1.483" x2="-2.973" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.973" y1="1.483" x2="2.973" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="1.651" y1="-0.559" x2="1.651" y2="0.559" width="0.1524" layer="51"/>
+<wire x1="-1.651" y1="-0.559" x2="-1.651" y2="0.559" width="0.1524" layer="51"/>
+<wire x1="1.535" y1="-0.798" x2="1.535" y2="0.798" width="0.2032" layer="51"/>
+<wire x1="1.535" y1="0.798" x2="-1.535" y2="0.798" width="0.2032" layer="21"/>
+<wire x1="-1.535" y1="0.798" x2="-1.535" y2="-0.798" width="0.2032" layer="51"/>
+<wire x1="-1.535" y1="-0.798" x2="1.535" y2="-0.798" width="0.2032" layer="21"/>
+<wire x1="0.7" y1="0" x2="1.26" y2="0" width="0.2032" layer="51"/>
+<wire x1="0.97" y1="-0.26" x2="0.97" y2="0.3" width="0.2032" layer="51"/>
+<smd name="+" x="1.4" y="0" dx="2" dy="1.2" layer="1"/>
+<smd name="-" x="-1.4" y="0" dx="2" dy="1.2" layer="1"/>
+<text x="-1.524" y="1.143" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.5999" x2="0.1999" y2="0.5999" layer="35"/>
 </package>
-<package name="SMC_Z">
-<description>&lt;b&gt;Chip Capacitor&lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
-Siemens Matsushita Components B 45 194&lt;br&gt;
-Source: www.farnell.com/datasheets/247.pdf</description>
-<wire x1="-0.9" y1="0.575" x2="0.9" y2="0.575" width="0.1016" layer="51"/>
-<wire x1="0.9" y1="-0.575" x2="-0.9" y2="-0.575" width="0.1016" layer="51"/>
-<wire x1="-0.9" y1="0.575" x2="-0.9" y2="-0.575" width="0.1016" layer="51"/>
-<wire x1="0.9" y1="-0.575" x2="0.9" y2="0.575" width="0.1016" layer="51"/>
-<smd name="+" x="-1" y="0" dx="1" dy="1.2" layer="1"/>
-<smd name="-" x="1" y="0" dx="1" dy="1.2" layer="1"/>
-<text x="-1" y="0.8" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1" y="-2.1" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1" y1="-0.45" x2="-0.9" y2="0.45" layer="51"/>
-<rectangle x1="0.9" y1="-0.45" x2="1" y2="0.45" layer="51" rot="R180"/>
-<rectangle x1="-0.9" y1="-0.6" x2="-0.5" y2="0.6" layer="51"/>
+<package name="CT3528">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip
+tantalum</description>
+<wire x1="-2.973" y1="1.983" x2="2.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="2.973" y1="-1.983" x2="-2.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-2.973" y1="-1.983" x2="-2.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="2.973" y1="1.983" x2="2.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="1.637" y1="1.383" x2="1.637" y2="-1.383" width="0.2032" layer="51"/>
+<wire x1="1.778" y1="-1.016" x2="1.778" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-1.637" y1="-1.383" x2="1.637" y2="-1.383" width="0.2032" layer="21"/>
+<wire x1="-1.637" y1="1.383" x2="1.637" y2="1.383" width="0.2032" layer="21"/>
+<wire x1="-1.778" y1="-1.016" x2="-1.778" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-1.637" y1="1.383" x2="-1.637" y2="-1.383" width="0.2032" layer="51"/>
+<wire x1="0.68" y1="0" x2="1.31" y2="0" width="0.2032" layer="51"/>
+<wire x1="1" y1="-0.3" x2="1" y2="0.33" width="0.2032" layer="51"/>
+<smd name="+" x="1.5" y="0" dx="2" dy="2.2" layer="1"/>
+<smd name="-" x="-1.5" y="0" dx="2" dy="2.2" layer="1"/>
+<text x="-1.651" y="1.778" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.651" y="-2.921" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3" y1="-1" x2="0.3" y2="1" layer="35"/>
 </package>
-<package name="SMC_P">
-<description>&lt;b&gt;Chip Capacitor&lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
-Siemens Matsushita Components B 45 194&lt;br&gt;
-Source: www.farnell.com/datasheets/247.pdf</description>
-<wire x1="-1.675" y1="0.75" x2="1.65" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="1.65" y1="-0.75" x2="-1.675" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-1.675" y1="0.75" x2="-1.675" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="1.65" y1="-0.75" x2="1.65" y2="0.75" width="0.1016" layer="51"/>
-<smd name="+" x="-1.575" y="0" dx="1.6" dy="1.4" layer="1"/>
-<smd name="-" x="1.575" y="0" dx="1.6" dy="1.4" layer="1" rot="R180"/>
-<text x="-1" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1" y="-2.275" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.8" y1="-0.45" x2="-1.7" y2="0.45" layer="51"/>
-<rectangle x1="1.7" y1="-0.45" x2="1.8" y2="0.45" layer="51" rot="R180"/>
-<rectangle x1="-1.65" y1="-0.75" x2="-1.075" y2="0.725" layer="51"/>
-</package>
-<package name="SMC_B">
-<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
-Source: www.farnell.com/datasheets/247.pdf</description>
-<wire x1="-1.6" y1="1.35" x2="1.6" y2="1.35" width="0.1016" layer="51"/>
-<wire x1="1.6" y1="1.35" x2="1.6" y2="-1.35" width="0.1016" layer="51"/>
-<wire x1="1.6" y1="-1.35" x2="-1.6" y2="-1.35" width="0.1016" layer="51"/>
-<wire x1="-1.6" y1="-1.35" x2="-1.6" y2="1.35" width="0.1016" layer="51"/>
-<smd name="+" x="-1.5" y="0" dx="1.6" dy="2.4" layer="1"/>
-<smd name="-" x="1.5" y="0" dx="1.6" dy="2.4" layer="1" rot="R180"/>
-<text x="-1.905" y="1.905" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.75" y1="-1.1" x2="-1.55" y2="1.1" layer="51"/>
-<rectangle x1="1.55" y1="-1.1" x2="1.75" y2="1.1" layer="51" rot="R180"/>
-<rectangle x1="-1.6" y1="-1.35" x2="-0.95" y2="1.35" layer="51"/>
-</package>
-<package name="SMC_C">
-<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
-Source: www.farnell.com/datasheets/247.pdf</description>
-<wire x1="-2.85" y1="1.55" x2="2.85" y2="1.55" width="0.1016" layer="51"/>
-<wire x1="2.85" y1="1.55" x2="2.85" y2="-1.55" width="0.1016" layer="51"/>
-<wire x1="2.85" y1="-1.55" x2="-2.85" y2="-1.55" width="0.1016" layer="51"/>
-<wire x1="-2.85" y1="-1.55" x2="-2.85" y2="1.55" width="0.1016" layer="51"/>
-<smd name="+" x="-2.5" y="0" dx="2.4" dy="2.4" layer="1"/>
-<smd name="-" x="2.5" y="0" dx="2.4" dy="2.4" layer="1" rot="R180"/>
-<text x="-1.905" y="1.905" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-3" y1="-1.1" x2="-2.8" y2="1.1" layer="51"/>
-<rectangle x1="2.8" y1="-1.1" x2="3" y2="1.1" layer="51" rot="R180"/>
-<rectangle x1="-2.85" y1="-1.55" x2="-1.9" y2="1.55" layer="51"/>
-</package>
-<package name="SMC_D">
-<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
-Source: www.farnell.com/datasheets/247.pdf</description>
-<wire x1="-3.5" y1="2.1" x2="3.5" y2="2.1" width="0.1016" layer="51"/>
-<wire x1="3.5" y1="2.1" x2="3.5" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="3.5" y1="-2.1" x2="-3.5" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="-3.5" y1="-2.1" x2="-3.5" y2="2.1" width="0.1016" layer="51"/>
-<smd name="+" x="-3.15" y="0" dx="2.4" dy="2.8" layer="1"/>
-<smd name="-" x="3.15" y="0" dx="2.4" dy="2.8" layer="1" rot="R180"/>
-<text x="-2.54" y="2.54" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.65" y1="-1.2" x2="-3.45" y2="1.2" layer="51"/>
-<rectangle x1="3.45" y1="-1.2" x2="3.65" y2="1.2" layer="51" rot="R180"/>
-<rectangle x1="-3.5" y1="-2.1" x2="-2.4" y2="2.1" layer="51"/>
-</package>
-<package name="SMC_E">
-<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
-Source: www.farnell.com/datasheets/247.pdf</description>
-<wire x1="-3.5" y1="2.1" x2="3.5" y2="2.1" width="0.1016" layer="51"/>
-<wire x1="3.5" y1="2.1" x2="3.5" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="3.5" y1="-2.1" x2="-3.5" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="-3.5" y1="-2.1" x2="-3.5" y2="2.1" width="0.1016" layer="51"/>
-<smd name="+" x="-3.15" y="0" dx="2.4" dy="2.8" layer="1"/>
-<smd name="-" x="3.15" y="0" dx="2.4" dy="2.8" layer="1" rot="R180"/>
-<text x="-2.54" y="2.54" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.65" y1="-1.2" x2="-3.45" y2="1.2" layer="51"/>
-<rectangle x1="3.45" y1="-1.2" x2="3.65" y2="1.2" layer="51" rot="R180"/>
-<rectangle x1="-3.5" y1="-2.1" x2="-2.4" y2="2.1" layer="51"/>
-</package>
-<package name="SANYO-OSCON_9E">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-3.55" y1="0" x2="-2.8" y2="0" width="0.4064" layer="21"/>
-<circle x="0" y="0" radius="3.9" width="0.2032" layer="21"/>
-<pad name="-" x="-1.75" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="1.75" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SANYO-OSCON_9F">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-4.55" y1="0" x2="-3.6" y2="0" width="0.4064" layer="21"/>
-<circle x="0" y="0" radius="4.9" width="0.2032" layer="21"/>
-<pad name="-" x="-2.5" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="2.5" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SANYO-OSCON_A">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-1.55" y1="-0.4" x2="-1.55" y2="0.4" width="0.4064" layer="51"/>
-<circle x="0" y="0" radius="1.9" width="0.2032" layer="21"/>
-<pad name="-" x="-1" y="0" drill="0.7" diameter="1.1"/>
-<pad name="+" x="1" y="0" drill="0.7" diameter="1.1"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SANYO-OSCON_A'">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-1.55" y1="-0.4" x2="-1.55" y2="0.4" width="0.4064" layer="51"/>
-<circle x="0" y="0" radius="1.9" width="0.2032" layer="21"/>
-<pad name="-" x="-0.75" y="0" drill="0.6" diameter="1"/>
-<pad name="+" x="0.75" y="0" drill="0.6" diameter="1"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SANYO-OSCON_B">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-1.9" y1="-0.4" x2="-1.9" y2="0.4" width="0.4064" layer="21"/>
-<circle x="0" y="0" radius="2.4" width="0.2032" layer="21"/>
-<pad name="-" x="-1" y="0" drill="0.7" diameter="1.1"/>
-<pad name="+" x="1" y="0" drill="0.7" diameter="1.1"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SANYO-OSCON_B'">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-1.9" y1="-0.4" x2="-1.9" y2="0.4" width="0.4064" layer="21"/>
-<circle x="0" y="0" radius="2.4" width="0.2032" layer="21"/>
-<pad name="-" x="-1" y="0" drill="0.7" diameter="1.1"/>
-<pad name="+" x="1" y="0" drill="0.7" diameter="1.1"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SANYO-OSCON_C">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-2.2" y1="0" x2="-2.7" y2="0" width="0.4064" layer="21"/>
-<circle x="0" y="0" radius="3.05" width="0.2032" layer="21"/>
-<pad name="-" x="-1.25" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="1.25" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SANYO-OSCON_C'">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-2.2" y1="0" x2="-2.7" y2="0" width="0.4064" layer="21"/>
-<circle x="0" y="0" radius="3.0504" width="0.2032" layer="21"/>
-<pad name="-" x="-1.25" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="1.25" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SANYO-OSCON_C6">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<circle x="0" y="0" radius="3.05" width="0.2032" layer="21"/>
-<pad name="-" x="-1.25" y="0" drill="0.7" diameter="1.27"/>
-<pad name="+" x="1.25" y="0" drill="0.7" diameter="1.27"/>
-<text x="-1.905" y="3.175" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="21">
-<vertex x="-2.15" y="2.1"/>
-<vertex x="-2.15" y="-2.1" curve="-41.039434"/>
-<vertex x="-3" y="0.1" curve="-41.67409"/>
-</polygon>
-</package>
-<package name="SANYO-OSCON_D">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-2.2" y1="0" x2="-2.7" y2="0" width="0.4064" layer="21"/>
-<circle x="0" y="0" radius="3.05" width="0.2032" layer="21"/>
-<pad name="-" x="-1.25" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="1.25" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SANYO-OSCON_E">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-3.5" y1="0" x2="-2.7" y2="0" width="0.4064" layer="21"/>
-<circle x="0" y="0" radius="3.9003" width="0.2032" layer="21"/>
-<pad name="-" x="-1.75" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="1.75" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SANYO-OSCON_E'">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-3.55" y1="0" x2="-2.8" y2="0" width="0.4064" layer="21"/>
-<circle x="0" y="0" radius="3.9" width="0.2032" layer="21"/>
-<pad name="-" x="-1.75" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="1.75" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SANYO-OSCON_E1">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-3.55" y1="0" x2="-2.75" y2="0" width="0.4064" layer="21"/>
-<circle x="0" y="0" radius="3.9" width="0.2032" layer="21"/>
-<pad name="-" x="-1.75" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="1.75" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SANYO-OSCON_E12">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<circle x="0" y="0" radius="3.9" width="0.2032" layer="21"/>
-<pad name="-" x="-1.75" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="1.75" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="21">
-<vertex x="-2.65" y="2.7"/>
-<vertex x="-2.65" y="-2.75" curve="-41.038922"/>
-<vertex x="-3.8" y="0" curve="-41.675057"/>
-</polygon>
-</package>
-<package name="SANYO-OSCON_E13">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<circle x="0" y="0" radius="3.9" width="0.2032" layer="21"/>
-<pad name="-" x="-1.75" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="1.75" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="21">
-<vertex x="-2.65" y="2.7"/>
-<vertex x="-2.65" y="-2.75" curve="-41.038922"/>
-<vertex x="-3.8" y="0" curve="-41.675057"/>
-</polygon>
-</package>
-<package name="SANYO-OSCON_E7">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<circle x="0" y="0" radius="3.9" width="0.2032" layer="21"/>
-<pad name="-" x="-1.75" y="0" drill="0.7" diameter="1.27"/>
-<pad name="+" x="1.75" y="0" drill="0.7" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="21">
-<vertex x="-2.65" y="2.8"/>
-<vertex x="-2.65" y="-2.8" curve="-41.039891"/>
-<vertex x="-3.85" y="0" curve="-41.675747"/>
-</polygon>
-</package>
-<package name="SANYO-OSCON_E9">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<circle x="0" y="0" radius="3.9" width="0.2032" layer="21"/>
-<pad name="-" x="-1.75" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="1.75" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="21">
-<vertex x="-2.65" y="2.7"/>
-<vertex x="-2.65" y="-2.75" curve="-41.038922"/>
-<vertex x="-3.8" y="0" curve="-41.675057"/>
-</polygon>
-</package>
-<package name="SANYO-OSCON_F">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-4.5" y1="0" x2="-3.6" y2="0" width="0.4064" layer="21"/>
-<circle x="0" y="0" radius="4.9" width="0.2032" layer="21"/>
-<pad name="-" x="-2.5" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="2.5" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SANYO-OSCON_F'">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-3.55" y1="0" x2="-4.4" y2="0" width="0.4064" layer="21"/>
-<circle x="0" y="0" radius="4.9002" width="0.2032" layer="21"/>
-<pad name="-" x="-2.5" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="2.5" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SANYO-OSCON_F0">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-4.5" y1="0" x2="-3.6" y2="0" width="0.4064" layer="21"/>
-<circle x="0" y="0" radius="4.9" width="0.2032" layer="21"/>
-<pad name="-" x="-2.5" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="2.5" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SANYO-OSCON_F13">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<circle x="0" y="0" radius="4.9" width="0.2032" layer="21"/>
-<pad name="-" x="-2.5" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="2.5" y="0" drill="0.8" diameter="1.27"/>
-<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<package name="CT6032">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip
+tantalum</description>
+<wire x1="-4.473" y1="1.983" x2="4.473" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="4.473" y1="-1.983" x2="-4.473" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-4.473" y1="-1.983" x2="-4.473" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="4.473" y1="1.983" x2="4.473" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="2.932" y1="1.637" x2="2.932" y2="-1.637" width="0.2032" layer="51"/>
+<wire x1="3.073" y1="-1.067" x2="3.073" y2="1.067" width="0.1524" layer="51"/>
+<wire x1="-2.957" y1="-1.637" x2="2.932" y2="-1.637" width="0.2032" layer="21"/>
+<wire x1="-2.957" y1="1.637" x2="2.932" y2="1.637" width="0.2032" layer="21"/>
+<wire x1="-3.073" y1="-1.067" x2="-3.073" y2="1.067" width="0.1524" layer="51"/>
+<wire x1="-2.957" y1="1.637" x2="-2.957" y2="-1.637" width="0.2032" layer="51"/>
+<wire x1="1.18" y1="0" x2="2.45" y2="0" width="0.2032" layer="51"/>
+<wire x1="1.8" y1="-0.63" x2="1.8" y2="0.64" width="0.2032" layer="51"/>
+<smd name="+" x="2.5" y="0" dx="2.6" dy="2.2" layer="1"/>
+<smd name="-" x="-2.5" y="0" dx="2.6" dy="2.2" layer="1"/>
+<text x="-2.54" y="2.032" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="21">
-<vertex x="-3.4" y="3.45"/>
-<vertex x="-3.4" y="-3.4" curve="-41.039359"/>
-<vertex x="-4.85" y="0" curve="-41.674636"/>
-</polygon>
+<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
 </package>
-<package name="SANYO-OSCON_F8">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<circle x="0" y="0" radius="4.9" width="0.2032" layer="21"/>
-<pad name="-" x="-2.5" y="0" drill="0.7" diameter="1.27"/>
-<pad name="+" x="2.5" y="0" drill="0.7" diameter="1.27"/>
-<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="21">
-<vertex x="-3.6" y="3.2"/>
-<vertex x="-3.6" y="-3.25" curve="-41.039474"/>
-<vertex x="-4.85" y="0" curve="-41.675359"/>
-</polygon>
+<package name="CT7343">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip
+tantalum</description>
+<wire x1="-4.973" y1="2.483" x2="4.973" y2="2.483" width="0.0508" layer="39"/>
+<wire x1="4.973" y1="-2.483" x2="-4.973" y2="-2.483" width="0.0508" layer="39"/>
+<wire x1="-4.973" y1="-2.483" x2="-4.973" y2="2.483" width="0.0508" layer="39"/>
+<wire x1="4.973" y1="2.483" x2="4.973" y2="-2.483" width="0.0508" layer="39"/>
+<wire x1="3.592" y1="2.195" x2="3.592" y2="-2.195" width="0.2032" layer="51"/>
+<wire x1="3.734" y1="-1.143" x2="3.734" y2="1.143" width="0.1524" layer="51"/>
+<wire x1="-3.582" y1="-2.195" x2="3.592" y2="-2.195" width="0.2032" layer="21"/>
+<wire x1="-3.582" y1="2.195" x2="3.592" y2="2.195" width="0.2032" layer="21"/>
+<wire x1="-3.734" y1="-1.143" x2="-3.734" y2="1.143" width="0.1524" layer="51"/>
+<wire x1="-3.582" y1="2.195" x2="-3.582" y2="-2.195" width="0.2032" layer="51"/>
+<wire x1="2.04" y1="0" x2="3.09" y2="0" width="0.2032" layer="51"/>
+<wire x1="2.55" y1="-0.52" x2="2.55" y2="0.52" width="0.2032" layer="51"/>
+<wire x1="3.592" y1="-1.615" x2="3.592" y2="-2.195" width="0.2032" layer="21"/>
+<wire x1="-3.582" y1="-1.615" x2="-3.582" y2="-2.195" width="0.2032" layer="21"/>
+<wire x1="3.592" y1="2.195" x2="3.592" y2="1.615" width="0.2032" layer="21"/>
+<wire x1="-3.582" y1="2.195" x2="-3.582" y2="1.615" width="0.2032" layer="21"/>
+<smd name="+" x="3.2" y="0" dx="2.6" dy="2.4" layer="1"/>
+<smd name="-" x="-3.2" y="0" dx="2.6" dy="2.4" layer="1"/>
+<text x="-3.175" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
 </package>
-<package name="SANYO-OSCON_G">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-4.5" y1="0" x2="-5.7" y2="0" width="0.4064" layer="21"/>
-<circle x="0" y="0" radius="6.15" width="0.2032" layer="21"/>
-<pad name="-" x="-2.5" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="2.5" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<package name="TT2D4">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+diameter 4 mm, grid 2.54 mm</description>
+<wire x1="-1.016" y1="0" x2="-0.508" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="-0.889" x2="-0.1778" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="-0.1778" y1="-0.889" x2="-0.1778" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.1778" y1="0.889" x2="-0.508" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="0.889" x2="-0.508" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.508" y1="0" x2="1.016" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.635" y1="-1.143" x2="-1.143" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.397" x2="-0.889" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="-1.6985" y1="1.1153" x2="1.6985" y2="1.1153" width="0.1524" layer="21" curve="-113.419135" cap="flat"/>
+<wire x1="-1.6985" y1="-1.1153" x2="1.6985" y2="-1.1153" width="0.1524" layer="21" curve="113.419135" cap="flat"/>
+<wire x1="-1.6985" y1="1.1153" x2="-1.6985" y2="-1.1153" width="0.1524" layer="51" curve="66.580865" cap="flat"/>
+<wire x1="1.6985" y1="-1.1153" x2="1.6985" y2="1.1153" width="0.1524" layer="51" curve="66.580865" cap="flat"/>
+<pad name="-" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="+" x="-1.27" y="0" drill="0.8128"/>
+<text x="2.159" y="0.762" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.159" y="-1.905" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.127" y1="-0.9398" x2="0.5588" y2="0.9398" layer="51"/>
 </package>
-<package name="SANYO-OSCON_H">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-7" y1="0" x2="-5.7" y2="0" width="0.4064" layer="21"/>
-<circle x="0" y="0" radius="7.9001" width="0.2032" layer="21"/>
-<pad name="-" x="-3.75" y="0" drill="0.8" diameter="1.27"/>
-<pad name="+" x="3.75" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<package name="TT5D6">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+diameter 6 mm, grid 5.08 mm</description>
+<wire x1="-2.908" y1="0.9307" x2="2.921" y2="0.889" width="0.1524" layer="21" curve="-145.325311" cap="flat"/>
+<wire x1="2.8966" y1="-0.9655" x2="2.921" y2="0.889" width="0.1524" layer="51" curve="35.361865" cap="flat"/>
+<wire x1="-2.921" y1="-0.889" x2="-2.8966" y2="0.9655" width="0.1524" layer="51" curve="-35.361865" cap="flat"/>
+<wire x1="-2.9403" y1="-0.8232" x2="2.9211" y2="-0.889" width="0.1524" layer="21" curve="147.4323" cap="flat"/>
+<wire x1="-1.524" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="-0.889" x2="-0.1778" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="-0.1778" y1="-0.889" x2="-0.1778" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-0.1778" y1="0.889" x2="-0.508" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0.889" x2="-0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="1.27" x2="-1.016" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.651" x2="-1.397" y2="0.889" width="0.1524" layer="21"/>
+<pad name="-" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="+" x="-2.54" y="0" drill="0.8128"/>
+<text x="2.921" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.921" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="0.508" y="-2.159" size="0.9906" layer="21" ratio="12">TT</text>
+<rectangle x1="0.127" y1="-0.9398" x2="0.5588" y2="0.9398" layer="21"/>
 </package>
-<package name="SANYO-OSCON_SMD_A5">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt; SMD type with conductive polymer electrolyte&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-2.05" y1="2.05" x2="1.25" y2="2.05" width="0.2032" layer="21"/>
-<wire x1="1.25" y1="2.05" x2="2.05" y2="1.25" width="0.2032" layer="21"/>
-<wire x1="2.05" y1="1.25" x2="2.05" y2="-1.25" width="0.2032" layer="51"/>
-<wire x1="2.05" y1="-1.25" x2="1.25" y2="-2.05" width="0.2032" layer="21"/>
-<wire x1="1.25" y1="-2.05" x2="-2.05" y2="-2.05" width="0.2032" layer="21"/>
-<wire x1="-2.05" y1="-2.05" x2="-2.05" y2="2.05" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.85" width="0.2032" layer="51"/>
-<smd name="-" x="-1.8" y="0" dx="2.6" dy="1.6" layer="1"/>
+<package name="TAP5-45">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+diameter 4.5 mm, grid 5.08 mm</description>
+<wire x1="-1.397" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="-0.635" x2="-0.1778" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.1778" y1="-0.635" x2="-0.1778" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-0.1778" y1="0.635" x2="-0.508" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0.635" x2="-0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="0" x2="1.397" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="0.381" x2="-1.143" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="0.635" x2="-1.397" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.635" x2="0.1778" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="0.635" x2="0.1778" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="-0.635" x2="0.508" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="-0.635" x2="0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="0" x2="0.508" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0.3302" y1="-0.508" x2="0.3302" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-1.9144" y1="-1.2492" x2="1.9144" y2="-1.2492" width="0.1524" layer="21" curve="113.748837" cap="flat"/>
+<wire x1="-1.9144" y1="1.2492" x2="1.9144" y2="1.2492" width="0.1524" layer="21" curve="-113.748837" cap="flat"/>
+<wire x1="-1.9144" y1="1.2492" x2="-1.9144" y2="-1.2492" width="0.1524" layer="51" curve="66.251163" cap="flat"/>
+<wire x1="1.9144" y1="-1.2492" x2="1.9144" y2="1.2492" width="0.1524" layer="51" curve="66.251163" cap="flat"/>
+<pad name="-" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="+" x="-2.54" y="0" drill="0.8128"/>
+<text x="2.286" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.286" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-0.889" y="-1.905" size="0.9906" layer="21" ratio="12">TT</text>
+</package>
+<package name="TAP5-50">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+diameter 5.0 mm, grid 5.08 mm</description>
+<wire x1="-2.1557" y1="1.3432" x2="2.1557" y2="1.3432" width="0.1524" layer="21" curve="-116.146571" cap="flat"/>
+<wire x1="-2.1557" y1="-1.3432" x2="2.1557" y2="-1.3432" width="0.1524" layer="21" curve="116.146571" cap="flat"/>
+<wire x1="-2.1557" y1="1.3432" x2="-2.1557" y2="-1.3432" width="0.1524" layer="51" curve="63.853429" cap="flat"/>
+<wire x1="2.1557" y1="-1.3432" x2="2.1557" y2="1.3432" width="0.1524" layer="51" curve="63.853429" cap="flat"/>
+<wire x1="-1.397" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="-0.889" x2="-0.1778" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="-0.1778" y1="-0.889" x2="-0.1778" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-0.1778" y1="0.889" x2="-0.508" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0.889" x2="-0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="0" x2="1.397" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="0.635" x2="-1.143" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="0.889" x2="-1.397" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.889" x2="0.1778" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="0.889" x2="0.1778" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="-0.889" x2="0.508" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="-0.889" x2="0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="0" x2="0.508" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="0.3302" y1="-0.762" x2="0.3302" y2="0.762" width="0.1524" layer="21"/>
+<pad name="-" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="+" x="-2.54" y="0" drill="0.8128"/>
+<text x="2.54" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-0.889" y="-2.159" size="0.9906" layer="21" ratio="12">TT</text>
+</package>
+<package name="TAP5-70">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+diameter 7.0 mm, grid 5.08 mm</description>
+<wire x1="-1.397" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="-0.889" x2="-0.1778" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="-0.1778" y1="-0.889" x2="-0.1778" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-0.1778" y1="0.889" x2="-0.508" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0.889" x2="-0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="0" x2="1.397" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="0.508" x2="-1.397" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.889" x2="0.1778" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="0.889" x2="0.1778" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="-0.889" x2="0.508" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="-0.889" x2="0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="0" x2="0.508" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="0.3302" y1="-0.762" x2="0.3302" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-3.3749" y1="-1.1199" x2="3.3749" y2="-1.1199" width="0.1524" layer="21" curve="143.285003" cap="flat"/>
+<wire x1="-3.3749" y1="1.1199" x2="3.3749" y2="1.1199" width="0.1524" layer="21" curve="-143.285003" cap="flat"/>
+<wire x1="-3.3749" y1="1.1199" x2="-3.3749" y2="-1.1199" width="0.1524" layer="51" curve="36.714997" cap="flat"/>
+<wire x1="3.3749" y1="-1.1199" x2="3.3749" y2="1.1199" width="0.1524" layer="51" curve="36.714997" cap="flat"/>
+<pad name="-" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="+" x="-2.54" y="0" drill="0.8128"/>
+<text x="3.175" y="2.413" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.175" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="0.635" y="-2.413" size="0.9906" layer="21" ratio="12">TT</text>
+</package>
+<package name="TAP5-60">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+diameter 6.0 mm, grid 5.08 mm</description>
+<wire x1="-1.397" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="-0.889" x2="-0.1778" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="-0.1778" y1="-0.889" x2="-0.1778" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-0.1778" y1="0.889" x2="-0.508" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0.889" x2="-0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="0" x2="1.397" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="0.889" x2="-1.524" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.889" x2="0.1778" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="0.889" x2="0.1778" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="-0.889" x2="0.508" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="-0.889" x2="0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="0" x2="0.508" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="0.3302" y1="-0.762" x2="0.3302" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.8702" y1="1.3574" x2="2.8702" y2="1.3574" width="0.1524" layer="21" curve="-129.378377" cap="flat"/>
+<wire x1="-2.8702" y1="-1.3574" x2="2.8702" y2="-1.3574" width="0.1524" layer="21" curve="129.378377" cap="flat"/>
+<wire x1="-2.8702" y1="1.3574" x2="-2.8702" y2="-1.3574" width="0.1524" layer="51" curve="50.621623" cap="flat"/>
+<wire x1="2.8702" y1="-1.3574" x2="2.8702" y2="1.3574" width="0.1524" layer="51" curve="50.621623" cap="flat"/>
+<pad name="-" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="+" x="-2.54" y="0" drill="0.8128"/>
+<text x="2.921" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.921" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="0" y="-2.54" size="0.9906" layer="21" ratio="12">TT</text>
+</package>
+<package name="E2,5-4R">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 2.54 mm, diameter 4 mm</description>
+<wire x1="-0.127" y1="0" x2="0.0762" y2="0" width="0.6096" layer="21"/>
+<wire x1="-2.794" y1="0" x2="-2.286" y2="0" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.254" x2="-2.54" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.6096" layer="51"/>
+<wire x1="0.508" y1="0.635" x2="0.5403" y2="-0.6456" width="0.1524" layer="21" curve="320.718856" cap="flat"/>
+<wire x1="0.508" y1="0.635" x2="0.5403" y2="-0.6456" width="0.1524" layer="51" curve="-39.281144" cap="flat"/>
+<pad name="+" x="-1.27" y="0" drill="0.8128" diameter="1.6002"/>
+<pad name="-" x="1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<text x="0.762" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.762" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="E2,5RE">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 2.54 mm, diameter 4 mm,</description>
+<wire x1="-0.127" y1="0" x2="0.0762" y2="0" width="0.6096" layer="21"/>
+<wire x1="-2.794" y1="0" x2="-2.286" y2="0" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.254" x2="-2.54" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.6096" layer="51"/>
+<wire x1="0.254" y1="1.143" x2="0.254" y2="-1.143" width="0.1524" layer="21" curve="286.260205" cap="flat"/>
+<wire x1="0.254" y1="-1.143" x2="0.254" y2="1.143" width="0.1524" layer="51" curve="73.739795" cap="flat"/>
+<pad name="+" x="-1.27" y="0" drill="0.8128" diameter="1.5748"/>
+<pad name="-" x="1.27" y="0" drill="0.8128" diameter="1.5748" shape="octagon"/>
+<text x="0.635" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.635" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="E2-5">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 2.54 mm, diameter 5 mm</description>
+<wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-1.016" x2="-0.254" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.016" x2="-0.762" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.016" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="1.778" x2="-0.762" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="1.524" x2="-1.016" y2="2.032" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="-" x="1.016" y="0" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="+" x="-1.016" y="0" drill="0.8128" diameter="1.27"/>
+<text x="2.54" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.54" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="51"/>
+</package>
+<package name="E5-4">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 5.05 mm, diameter 4 mm</description>
+<wire x1="-1.6985" y1="1.1153" x2="1.6985" y2="1.1153" width="0.1524" layer="21" curve="-113.419135" cap="flat"/>
+<wire x1="-1.6985" y1="-1.1153" x2="1.6985" y2="-1.1153" width="0.1524" layer="21" curve="113.419135" cap="flat"/>
+<wire x1="-1.6985" y1="1.1153" x2="-1.6985" y2="-1.1153" width="0.1524" layer="51" curve="66.580865" cap="flat"/>
+<wire x1="1.6985" y1="-1.1153" x2="1.6985" y2="1.1153" width="0.1524" layer="51" curve="66.580865" cap="flat"/>
+<wire x1="-1.397" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-1.016" x2="-0.254" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="1.016" x2="-0.762" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="1.016" x2="-0.762" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.397" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="0.635" x2="-1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.381" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
+<pad name="+" x="-2.54" y="0" drill="0.8128" diameter="1.905"/>
+<pad name="-" x="2.54" y="0" drill="0.8128" diameter="1.905" shape="octagon"/>
+<text x="2.159" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.159" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="21"/>
+</package>
+<package name="E5-6">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 5.08 mm, diameter 6 mm</description>
+<wire x1="-2.8702" y1="1.3574" x2="2.8702" y2="1.3574" width="0.1524" layer="21" curve="-129.378377" cap="flat"/>
+<wire x1="-2.8702" y1="-1.3574" x2="2.8702" y2="-1.3574" width="0.1524" layer="21" curve="129.378377" cap="flat"/>
+<wire x1="-2.8702" y1="1.3574" x2="-2.8702" y2="-1.3574" width="0.1524" layer="51" curve="50.621623" cap="flat"/>
+<wire x1="2.8702" y1="-1.3574" x2="2.8702" y2="1.3574" width="0.1524" layer="51" curve="50.621623" cap="flat"/>
+<wire x1="-1.397" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-1.016" x2="-0.254" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="1.016" x2="-0.762" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="1.016" x2="-0.762" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.397" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="0.635" x2="-1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.381" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
+<pad name="+" x="-2.54" y="0" drill="0.8128" diameter="1.905"/>
+<pad name="-" x="2.54" y="0" drill="0.8128" diameter="1.905" shape="octagon"/>
+<text x="3.048" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.048" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="21"/>
+</package>
+<package name="E5R">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 5.08 mm, diameter 9 mm</description>
+<wire x1="-0.889" y1="0" x2="0.9398" y2="0" width="0.6096" layer="21"/>
+<wire x1="-5.588" y1="0" x2="-4.572" y2="0" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.508" x2="-5.08" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0" x2="1.143" y2="0" width="0.6096" layer="51"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.6096" layer="51"/>
+<wire x1="1.778" y1="-1.143" x2="1.7821" y2="1.1275" width="0.1524" layer="21" curve="-330.552701" cap="flat"/>
+<wire x1="1.7732" y1="1.1613" x2="1.7781" y2="-1.143" width="0.1524" layer="51" curve="-29.895306" cap="flat"/>
+<pad name="+" x="-2.54" y="0" drill="0.8128" diameter="2.54"/>
+<pad name="-" x="2.54" y="0" drill="0.8128" diameter="2.54" shape="octagon"/>
+<text x="1.651" y="2.4638" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="140CLH-0810">
+<description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
+Long life base plate, High temperature 140 CLH&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="-4.85" y1="4.2" x2="3.4" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="4.85" y1="2.75" x2="4.85" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="4.85" y1="1.45" x2="4.85" y2="-1.45" width="0.2032" layer="51"/>
+<wire x1="4.85" y1="-1.45" x2="4.85" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-4.2" x2="-4.85" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-4.85" y1="-4.2" x2="-4.85" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-4.85" y1="-1.45" x2="-4.85" y2="1.45" width="0.2032" layer="51"/>
+<wire x1="-4.85" y1="1.45" x2="-4.85" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="4.85" y1="2.75" x2="3.4" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="4.85" y1="-2.75" x2="3.4" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-3.65" y1="1.4" x2="3.65" y2="1.4" width="0.2032" layer="21" curve="-138.030204" cap="flat"/>
+<wire x1="3.65" y1="1.4" x2="3.65" y2="-1.4" width="0.2032" layer="51" curve="-41.969796" cap="flat"/>
+<wire x1="-3.65" y1="-1.4" x2="3.65" y2="-1.4" width="0.2032" layer="21" curve="138.030204" cap="flat"/>
+<wire x1="-3.65" y1="-1.4" x2="-3.65" y2="1.4" width="0.2032" layer="51" curve="-41.969796" cap="flat"/>
+<smd name="+" x="3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
+<smd name="-" x="-3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
+<text x="-5.38" y="-2.74" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="0.635" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="140CLH-1010">
+<description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
+Long life base plate, High temperature 140 CLH&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="-5.8" y1="5.15" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="3.7" x2="5.8" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="1.45" x2="5.8" y2="-1.45" width="0.2032" layer="51"/>
+<wire x1="5.8" y1="-1.45" x2="5.8" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="4.35" y1="-5.15" x2="-5.8" y2="-5.15" width="0.2032" layer="21"/>
+<wire x1="-5.8" y1="-5.15" x2="-5.8" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-5.8" y1="-1.45" x2="-5.8" y2="1.45" width="0.2032" layer="51"/>
+<wire x1="-5.8" y1="1.45" x2="-5.8" y2="5.15" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="3.7" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="-3.7" x2="4.35" y2="-5.15" width="0.2032" layer="21"/>
+<wire x1="-4.7" y1="-1.4" x2="4.7" y2="-1.4" width="0.2032" layer="21" curve="146.825323" cap="flat"/>
+<wire x1="4.7" y1="-1.4" x2="4.7" y2="1.4" width="0.2032" layer="51" curve="33.174677" cap="flat"/>
+<wire x1="-4.7" y1="1.4" x2="4.7" y2="1.4" width="0.2032" layer="21" curve="-146.825323" cap="flat"/>
+<wire x1="-4.7" y1="1.4" x2="-4.7" y2="-1.4" width="0.2032" layer="51" curve="33.174677" cap="flat"/>
+<smd name="+" x="4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
+<smd name="-" x="-4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
+<text x="-2.74" y="1.93" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.375" y="-2.885" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="140CLH-1014">
+<description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
+Long life base plate, High temperature 140 CLH&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="-5.8" y1="5.15" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="3.7" x2="5.8" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="1.45" x2="5.8" y2="-1.45" width="0.2032" layer="51"/>
+<wire x1="5.8" y1="-1.45" x2="5.8" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="4.35" y1="-5.15" x2="-5.8" y2="-5.15" width="0.2032" layer="21"/>
+<wire x1="-5.8" y1="-5.15" x2="-5.8" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-5.8" y1="-1.45" x2="-5.8" y2="1.45" width="0.2032" layer="51"/>
+<wire x1="-5.8" y1="1.45" x2="-5.8" y2="5.15" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="3.7" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="-3.7" x2="4.35" y2="-5.15" width="0.2032" layer="21"/>
+<wire x1="-4.7" y1="-1.4" x2="4.7" y2="-1.4" width="0.2032" layer="21" curve="146.825323" cap="flat"/>
+<wire x1="4.7" y1="-1.4" x2="4.7" y2="1.4" width="0.2032" layer="51" curve="33.174677" cap="flat"/>
+<wire x1="-4.7" y1="1.4" x2="4.7" y2="1.4" width="0.2032" layer="21" curve="-146.825323" cap="flat"/>
+<wire x1="-4.7" y1="1.4" x2="-4.7" y2="-1.4" width="0.2032" layer="51" curve="33.174677" cap="flat"/>
+<smd name="+" x="4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
+<smd name="-" x="-4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
+<text x="-2.69" y="1.98" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.225" y="-2.935" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="150CLZ-0810">
+<description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
+Long life base plate, very low impedance 150 CLZ&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="-4.85" y1="4.2" x2="3.4" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="4.85" y1="2.75" x2="4.85" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="4.85" y1="1.45" x2="4.85" y2="-1.45" width="0.2032" layer="51"/>
+<wire x1="4.85" y1="-1.45" x2="4.85" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-4.2" x2="-4.85" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-4.85" y1="-4.2" x2="-4.85" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-4.85" y1="-1.45" x2="-4.85" y2="1.45" width="0.2032" layer="51"/>
+<wire x1="-4.85" y1="1.45" x2="-4.85" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="4.85" y1="2.75" x2="3.4" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="4.85" y1="-2.75" x2="3.4" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-3.65" y1="1.4" x2="3.65" y2="1.4" width="0.2032" layer="21" curve="-138.030204" cap="flat"/>
+<wire x1="3.65" y1="1.4" x2="3.65" y2="-1.4" width="0.2032" layer="51" curve="-41.969796" cap="flat"/>
+<wire x1="-3.65" y1="-1.4" x2="3.65" y2="-1.4" width="0.2032" layer="21" curve="138.030204" cap="flat"/>
+<wire x1="-3.65" y1="-1.4" x2="-3.65" y2="1.4" width="0.2032" layer="51" curve="-41.969796" cap="flat"/>
+<smd name="+" x="3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
+<smd name="-" x="-3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
+<text x="-5.43" y="-2.74" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="0.635" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="150CLZ-1010">
+<description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
+Long life base plate, very low impedance 150 CLZ&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="-5.8" y1="5.15" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="3.7" x2="5.8" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="1.45" x2="5.8" y2="-1.45" width="0.2032" layer="51"/>
+<wire x1="5.8" y1="-1.45" x2="5.8" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="4.35" y1="-5.15" x2="-5.8" y2="-5.15" width="0.2032" layer="21"/>
+<wire x1="-5.8" y1="-5.15" x2="-5.8" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-5.8" y1="-1.45" x2="-5.8" y2="1.45" width="0.2032" layer="51"/>
+<wire x1="-5.8" y1="1.45" x2="-5.8" y2="5.15" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="3.7" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="-3.7" x2="4.35" y2="-5.15" width="0.2032" layer="21"/>
+<wire x1="-4.7" y1="-1.4" x2="4.7" y2="-1.4" width="0.2032" layer="21" curve="146.825323" cap="flat"/>
+<wire x1="4.7" y1="-1.4" x2="4.7" y2="1.4" width="0.2032" layer="51" curve="33.174677" cap="flat"/>
+<wire x1="-4.7" y1="1.4" x2="4.7" y2="1.4" width="0.2032" layer="21" curve="-146.825323" cap="flat"/>
+<wire x1="-4.7" y1="1.4" x2="-4.7" y2="-1.4" width="0.2032" layer="51" curve="33.174677" cap="flat"/>
+<smd name="+" x="4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
+<smd name="-" x="-4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
+<text x="-2.79" y="1.93" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.075" y="-2.885" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="150CLZ-1014">
+<description>&lt;b&gt;Aluminum electrolytic capacitors SMD (Chip)&lt;/b&gt;&lt;p&gt;
+Long life base plate, very low impedance 150 CLZ&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="-5.8" y1="5.15" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="3.7" x2="5.8" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="1.45" x2="5.8" y2="-1.45" width="0.2032" layer="51"/>
+<wire x1="5.8" y1="-1.45" x2="5.8" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="4.35" y1="-5.15" x2="-5.8" y2="-5.15" width="0.2032" layer="21"/>
+<wire x1="-5.8" y1="-5.15" x2="-5.8" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-5.8" y1="-1.45" x2="-5.8" y2="1.45" width="0.2032" layer="51"/>
+<wire x1="-5.8" y1="1.45" x2="-5.8" y2="5.15" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="3.7" x2="4.35" y2="5.15" width="0.2032" layer="21"/>
+<wire x1="5.8" y1="-3.7" x2="4.35" y2="-5.15" width="0.2032" layer="21"/>
+<wire x1="-4.7" y1="-1.4" x2="4.7" y2="-1.4" width="0.2032" layer="21" curve="146.825323" cap="flat"/>
+<wire x1="4.7" y1="-1.4" x2="4.7" y2="1.4" width="0.2032" layer="51" curve="33.174677" cap="flat"/>
+<wire x1="-4.7" y1="1.4" x2="4.7" y2="1.4" width="0.2032" layer="21" curve="-146.825323" cap="flat"/>
+<wire x1="-4.7" y1="-1.4" x2="-4.7" y2="1.4" width="0.2032" layer="51" curve="-33.174677" cap="flat"/>
+<smd name="+" x="4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
+<smd name="-" x="-4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
+<text x="-2.74" y="1.88" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.025" y="-2.935" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="153CLV-0405">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="1.25" y1="-2.15" x2="-2.15" y2="-2.15" width="0.2032" layer="21"/>
+<wire x1="-2.15" y1="-2.15" x2="-2.15" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="-2.15" y1="-1.1" x2="-2.15" y2="1.1" width="0.2032" layer="51"/>
+<wire x1="-2.15" y1="1.1" x2="-2.15" y2="2.15" width="0.2032" layer="21"/>
+<wire x1="-2.15" y1="2.15" x2="1.25" y2="2.15" width="0.2032" layer="21"/>
+<wire x1="2.15" y1="1.25" x2="2.15" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="2.15" y1="1.1" x2="2.15" y2="-1.05" width="0.2032" layer="51"/>
+<wire x1="2.15" y1="-1.05" x2="2.15" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="2.15" y1="-1.25" x2="1.25" y2="-2.15" width="0.2032" layer="21"/>
+<wire x1="1.25" y1="2.15" x2="2.15" y2="1.25" width="0.2032" layer="21"/>
+<wire x1="-1.65" y1="-0.95" x2="1.65" y2="-0.95" width="0.2032" layer="21" curve="120.136976" cap="flat"/>
+<wire x1="-1.65" y1="-0.95" x2="-1.65" y2="0.95" width="0.2032" layer="51" curve="-59.863024" cap="flat"/>
+<wire x1="-1.65" y1="0.95" x2="1.65" y2="0.95" width="0.2032" layer="21" curve="-120.136976" cap="flat"/>
+<wire x1="1.65" y1="-0.95" x2="1.65" y2="0.95" width="0.2032" layer="51" curve="59.863024" cap="flat"/>
 <smd name="+" x="1.8" y="0" dx="2.6" dy="1.6" layer="1"/>
-<text x="-1.905" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="51">
-<vertex x="-1.2" y="-1.35"/>
-<vertex x="-1.2" y="1.35" curve="44.759919"/>
-<vertex x="-1.8" y="0" curve="39.027281"/>
-</polygon>
+<smd name="-" x="-1.8" y="0" dx="2.6" dy="1.6" layer="1"/>
+<text x="-2.24" y="2.48" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.275" y="-3.735" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SANYO-OSCON_SMD_B6">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt; SMD type with conductive polymer electrolyte&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-2.55" y1="2.55" x2="1.75" y2="2.55" width="0.2032" layer="21"/>
-<wire x1="1.75" y1="2.55" x2="2.55" y2="1.75" width="0.2032" layer="21"/>
-<wire x1="2.55" y1="1.75" x2="2.55" y2="-1.75" width="0.2032" layer="51"/>
-<wire x1="2.55" y1="-1.75" x2="1.75" y2="-2.55" width="0.2032" layer="21"/>
-<wire x1="1.75" y1="-2.55" x2="-2.55" y2="-2.55" width="0.2032" layer="21"/>
-<wire x1="-2.55" y1="-2.55" x2="-2.55" y2="2.55" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="2.35" width="0.2032" layer="51"/>
-<smd name="-" x="-2.2" y="0" dx="3" dy="1.6" layer="1"/>
+<package name="153CLV-0505">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="1.75" y1="-2.65" x2="-2.65" y2="-2.65" width="0.2032" layer="21"/>
+<wire x1="-2.65" y1="-2.65" x2="-2.65" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="-2.65" y1="-1.1" x2="-2.65" y2="1.1" width="0.2032" layer="51"/>
+<wire x1="-2.65" y1="1.1" x2="-2.65" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="-2.65" y1="2.65" x2="1.75" y2="2.65" width="0.2032" layer="21"/>
+<wire x1="2.65" y1="1.75" x2="2.65" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="2.65" y1="1.1" x2="2.65" y2="-1.1" width="0.2032" layer="51"/>
+<wire x1="2.65" y1="-1.1" x2="2.65" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="2.65" y1="-1.75" x2="1.75" y2="-2.65" width="0.2032" layer="21"/>
+<wire x1="1.75" y1="2.65" x2="2.65" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="-0.95" x2="2.2" y2="-0.95" width="0.2032" layer="21" curve="133.28887" cap="flat"/>
+<wire x1="-2.2" y1="-0.95" x2="-2.2" y2="0.95" width="0.2032" layer="51" curve="-46.71113" cap="flat"/>
+<wire x1="-2.2" y1="0.95" x2="2.2" y2="0.95" width="0.2032" layer="21" curve="-133.28887" cap="flat"/>
+<wire x1="2.2" y1="-0.95" x2="2.2" y2="0.95" width="0.2032" layer="51" curve="46.71113" cap="flat"/>
 <smd name="+" x="2.2" y="0" dx="3" dy="1.6" layer="1"/>
-<text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="51">
-<vertex x="-1.6" y="-1.65"/>
-<vertex x="-1.6" y="1.65" curve="35.983944"/>
-<vertex x="-2.3" y="0" curve="42.321615"/>
-</polygon>
+<smd name="-" x="-2.2" y="0" dx="3" dy="1.6" layer="1"/>
+<text x="-2.74" y="2.98" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.775" y="-4.235" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SANYO-OSCON_SMD_C6">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt; SMD type with conductive polymer electrolyte&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-3.2" y1="3.2" x2="2.4" y2="3.2" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="3.2" x2="3.2" y2="2.4" width="0.2032" layer="21"/>
-<wire x1="3.2" y1="2.4" x2="3.2" y2="-2.4" width="0.2032" layer="51"/>
-<wire x1="3.2" y1="-2.4" x2="2.4" y2="-3.2" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="-3.2" x2="-3.2" y2="-3.2" width="0.2032" layer="21"/>
-<wire x1="-3.2" y1="-3.2" x2="-3.2" y2="3.2" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="2.95" width="0.2032" layer="51"/>
-<smd name="-" x="-2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
-<smd name="+" x="2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
-<text x="-3.175" y="3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="51">
-<vertex x="-2.2" y="1.9"/>
-<vertex x="-2.2" y="-1.9" curve="-39.18521"/>
-<vertex x="-2.85" y="0" curve="-36.094684"/>
-</polygon>
+<package name="153CLV-0605">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="2.4" y1="-3.3" x2="-3.3" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-3.3" x2="-3.3" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-1.1" x2="-3.3" y2="1.1" width="0.2032" layer="51"/>
+<wire x1="-3.3" y1="1.1" x2="-3.3" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="3.3" x2="2.4" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="2.4" x2="3.3" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="1.1" x2="3.3" y2="-1.1" width="0.2032" layer="51"/>
+<wire x1="3.3" y1="-1.1" x2="3.3" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="-2.4" x2="2.4" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="3.3" x2="3.3" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="-2.95" y1="-0.9" x2="2.95" y2="-0.95" width="0.2032" layer="21" curve="145.181395" cap="flat"/>
+<wire x1="-2.95" y1="-0.9" x2="-2.95" y2="0.95" width="0.2032" layer="51" curve="-34.818605" cap="flat"/>
+<wire x1="-2.95" y1="0.95" x2="2.95" y2="0.9" width="0.2032" layer="21" curve="-145.181395" cap="flat"/>
+<wire x1="2.95" y1="-0.95" x2="2.95" y2="0.9" width="0.2032" layer="51" curve="34.818605" cap="flat"/>
+<smd name="+" x="2.7" y="0" dx="3.5" dy="1.6" layer="1"/>
+<smd name="-" x="-2.7" y="0" dx="3.5" dy="1.6" layer="1"/>
+<text x="-3.39" y="3.63" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.425" y="-4.885" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SANYO-OSCON_SMD_E12">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt; SMD type with conductive polymer electrolyte&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-4.05" y1="4.05" x2="2.95" y2="4.05" width="0.2032" layer="21"/>
-<wire x1="2.95" y1="4.05" x2="4.05" y2="2.95" width="0.2032" layer="21"/>
-<wire x1="4.05" y1="2.95" x2="4.05" y2="-2.95" width="0.2032" layer="51"/>
-<wire x1="2.95" y1="-4.05" x2="-4.05" y2="-4.05" width="0.2032" layer="21"/>
-<wire x1="-4.05" y1="-4.05" x2="-4.05" y2="4.05" width="0.2032" layer="51"/>
-<wire x1="4.05" y1="-2.95" x2="2.95" y2="-4.05" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="3.85" width="0.2032" layer="51"/>
-<smd name="-" x="-3.5" y="0" dx="4.15" dy="1.9" layer="1"/>
-<smd name="+" x="3.5" y="0" dx="4.15" dy="1.9" layer="1"/>
-<text x="-3.81" y="4.445" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="51">
-<vertex x="-2.6" y="-2.75"/>
-<vertex x="-2.6" y="2.75" curve="44.955417"/>
-<vertex x="-3.85" y="0" curve="45.23973"/>
-</polygon>
+<package name="153CLV-0807">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="3.3" y1="-4.2" x2="-4.2" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-4.2" y1="-4.2" x2="-4.2" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="-4.2" y1="-1.1" x2="-4.2" y2="1.1" width="0.2032" layer="51"/>
+<wire x1="-4.2" y1="1.1" x2="-4.2" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="-4.2" y1="4.2" x2="3.3" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="3.3" x2="4.2" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="1.1" x2="4.2" y2="-1.1" width="0.2032" layer="51"/>
+<wire x1="4.2" y1="-1.1" x2="4.2" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="-3.3" x2="3.3" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="4.2" x2="4.2" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-3.75" y1="-1.05" x2="3.75" y2="-1.05" width="0.2032" layer="21" curve="148.008335" cap="flat"/>
+<wire x1="-3.75" y1="-1.05" x2="-3.75" y2="1.05" width="0.2032" layer="51" curve="-31.284493" cap="flat"/>
+<wire x1="-3.75" y1="1.05" x2="3.75" y2="1.05" width="0.2032" layer="21" curve="-148.008335" cap="flat"/>
+<wire x1="3.75" y1="1.05" x2="3.75" y2="-1.05" width="0.2032" layer="51" curve="-31.284493" cap="flat"/>
+<smd name="+" x="3.05" y="0" dx="4" dy="1.6" layer="1"/>
+<smd name="-" x="-3.05" y="0" dx="4" dy="1.6" layer="1"/>
+<text x="-4.29" y="4.53" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.325" y="-5.785" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SANYO-OSCON_SMD_E7">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt; SMD type with conductive polymer electrolyte&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-4.05" y1="4.05" x2="2.95" y2="4.05" width="0.2032" layer="21"/>
-<wire x1="2.95" y1="4.05" x2="4.05" y2="2.95" width="0.2032" layer="21"/>
-<wire x1="4.05" y1="2.95" x2="4.05" y2="-2.95" width="0.2032" layer="51"/>
-<wire x1="2.95" y1="-4.05" x2="-4.05" y2="-4.05" width="0.2032" layer="21"/>
-<wire x1="-4.05" y1="-4.05" x2="-4.05" y2="4.05" width="0.2032" layer="51"/>
-<wire x1="4.05" y1="-2.95" x2="2.95" y2="-4.05" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="3.85" width="0.2032" layer="51"/>
-<smd name="-" x="-3.5" y="0" dx="4.15" dy="1.9" layer="1"/>
-<smd name="+" x="3.5" y="0" dx="4.15" dy="1.9" layer="1"/>
-<text x="-3.81" y="4.445" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="51">
-<vertex x="-2.7" y="2.65"/>
-<vertex x="-2.7" y="-2.65" curve="-47.290335"/>
-<vertex x="-3.8" y="0" curve="-44.001093"/>
-</polygon>
+<package name="153CLV-0810">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="3.3" y1="-4.2" x2="-4.2" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-4.2" y1="-4.2" x2="-4.2" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-4.2" y1="-1.5" x2="-4.2" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="-4.2" y1="1.5" x2="-4.2" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="-4.2" y1="4.2" x2="3.3" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="3.3" x2="4.2" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="1.5" x2="4.2" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="4.2" y1="-1.5" x2="4.2" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="-3.3" x2="3.3" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="4.2" x2="4.2" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-3.65" y1="-1.4" x2="3.65" y2="-1.4" width="0.2032" layer="21" curve="138.030204" cap="flat"/>
+<wire x1="-3.65" y1="-1.4" x2="-3.65" y2="1.4" width="0.2032" layer="51" curve="-41.969796" cap="flat"/>
+<wire x1="-3.65" y1="1.4" x2="3.65" y2="1.4" width="0.2032" layer="21" curve="-138.030204" cap="flat"/>
+<wire x1="3.65" y1="-1.4" x2="3.65" y2="1.4" width="0.2032" layer="51" curve="41.969796" cap="flat"/>
+<smd name="+" x="3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
+<smd name="-" x="-3.25" y="0" dx="3.5" dy="2.5" layer="1"/>
+<text x="-4.29" y="4.53" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.325" y="-5.785" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SANYO-OSCON_SMD_F12">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt; SMD type with conductive polymer electrolyte&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-5.05" y1="5.05" x2="3.95" y2="5.05" width="0.2032" layer="21"/>
-<wire x1="3.95" y1="5.05" x2="5.05" y2="3.95" width="0.2032" layer="21"/>
-<wire x1="5.05" y1="3.95" x2="5.05" y2="-3.95" width="0.2032" layer="51"/>
-<wire x1="3.95" y1="-5.05" x2="-5.05" y2="-5.05" width="0.2032" layer="21"/>
-<wire x1="-5.05" y1="-5.05" x2="-5.05" y2="5.05" width="0.2032" layer="51"/>
-<wire x1="5.05" y1="-3.95" x2="3.95" y2="-5.05" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="4.8" width="0.2032" layer="51"/>
-<smd name="-" x="-4.5" y="0" dx="4.7" dy="1.9" layer="1"/>
-<smd name="+" x="4.5" y="0" dx="4.7" dy="1.9" layer="1"/>
-<text x="-5.08" y="5.715" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.08" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="51">
-<vertex x="-3.05" y="-3.65"/>
-<vertex x="-3.05" y="3.65" curve="48.708973"/>
-<vertex x="-4.75" y="0" curve="43.982679"/>
-</polygon>
+<package name="153CLV-1010">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="4.3" y1="-5.2" x2="-5.2" y2="-5.2" width="0.2032" layer="21"/>
+<wire x1="-5.2" y1="-5.2" x2="-5.2" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-5.2" y1="-1.5" x2="-5.2" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="-5.2" y1="1.5" x2="-5.2" y2="5.2" width="0.2032" layer="21"/>
+<wire x1="-5.2" y1="5.2" x2="4.3" y2="5.2" width="0.2032" layer="21"/>
+<wire x1="5.2" y1="4.3" x2="5.2" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="5.2" y1="1.5" x2="5.2" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="5.2" y1="-1.5" x2="5.2" y2="-4.3" width="0.2032" layer="21"/>
+<wire x1="5.2" y1="-4.3" x2="4.3" y2="-5.2" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="5.2" x2="5.2" y2="4.3" width="0.2032" layer="21"/>
+<wire x1="4.65" y1="-1.55" x2="4.65" y2="1.55" width="0.2032" layer="51" curve="36.869898" cap="flat"/>
+<wire x1="-4.65" y1="-1.55" x2="-4.65" y2="1.55" width="0.2032" layer="51" curve="-36.869898" cap="flat"/>
+<wire x1="-4.65" y1="-1.55" x2="4.65" y2="-1.55" width="0.2032" layer="21" curve="143.130102" cap="flat"/>
+<wire x1="-4.65" y1="1.55" x2="4.65" y2="1.55" width="0.2032" layer="21" curve="-143.130102" cap="flat"/>
+<smd name="+" x="4" y="0" dx="4" dy="2.5" layer="1"/>
+<smd name="-" x="-4" y="0" dx="4" dy="2.5" layer="1"/>
+<text x="-5.29" y="5.53" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.325" y="-6.785" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SANYO-OSCON_SMD_F8">
-<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt; SMD type with conductive polymer electrolyte&lt;p&gt;
-Source: e_os_all.pdf</description>
-<wire x1="-5.05" y1="5.05" x2="3.95" y2="5.05" width="0.2032" layer="21"/>
-<wire x1="3.95" y1="5.05" x2="5.05" y2="3.95" width="0.2032" layer="21"/>
-<wire x1="5.05" y1="3.95" x2="5.05" y2="-3.95" width="0.2032" layer="51"/>
-<wire x1="3.95" y1="-5.05" x2="-5.05" y2="-5.05" width="0.2032" layer="21"/>
-<wire x1="-5.05" y1="-5.05" x2="-5.05" y2="5.05" width="0.2032" layer="51"/>
-<wire x1="5.05" y1="-3.95" x2="3.95" y2="-5.05" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="4.8" width="0.2032" layer="51"/>
-<smd name="-" x="-4.5" y="0" dx="4.7" dy="1.9" layer="1"/>
-<smd name="+" x="4.5" y="0" dx="4.7" dy="1.9" layer="1"/>
-<text x="-5.08" y="5.715" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.08" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.2032" layer="51">
-<vertex x="-3.05" y="-3.65"/>
-<vertex x="-3.05" y="3.65" curve="41.376652"/>
-<vertex x="-4.75" y="0" curve="43.010397"/>
-</polygon>
+<package name="153CLV-1012">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="4.3" y1="-5.2" x2="-5.2" y2="-5.2" width="0.2032" layer="21"/>
+<wire x1="-5.2" y1="-5.2" x2="-5.2" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-5.2" y1="-1.5" x2="-5.2" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="-5.2" y1="1.5" x2="-5.2" y2="5.2" width="0.2032" layer="21"/>
+<wire x1="-5.2" y1="5.2" x2="4.3" y2="5.2" width="0.2032" layer="21"/>
+<wire x1="5.2" y1="4.3" x2="5.2" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="5.2" y1="1.5" x2="5.2" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="5.2" y1="-1.5" x2="5.2" y2="-4.3" width="0.2032" layer="21"/>
+<wire x1="5.2" y1="-4.3" x2="4.3" y2="-5.2" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="5.2" x2="5.2" y2="4.3" width="0.2032" layer="21"/>
+<wire x1="4.65" y1="-1.55" x2="4.65" y2="1.55" width="0.2032" layer="51" curve="36.869898" cap="flat"/>
+<wire x1="-4.65" y1="-1.55" x2="-4.65" y2="1.55" width="0.2032" layer="51" curve="-36.869898" cap="flat"/>
+<wire x1="-4.65" y1="-1.55" x2="4.65" y2="-1.55" width="0.2032" layer="21" curve="143.130102" cap="flat"/>
+<wire x1="-4.65" y1="1.55" x2="4.65" y2="1.55" width="0.2032" layer="21" curve="-143.130102" cap="flat"/>
+<smd name="+" x="4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
+<smd name="-" x="-4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
+<text x="-5.29" y="5.53" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.325" y="-6.785" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="UD-10X10_NICHICON">
-<description>&lt;b&gt;ALUMINUM ELECTROLYTIC CAPACITORS&lt;/b&gt; UD Series 10 x 10 mm&lt;p&gt;
-Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
-<wire x1="-5.1" y1="5.1" x2="4.3" y2="5.1" width="0.1016" layer="51"/>
-<wire x1="4.3" y1="5.1" x2="5.1" y2="4.3" width="0.1016" layer="51"/>
-<wire x1="5.1" y1="4.3" x2="5.1" y2="-4.3" width="0.1016" layer="51"/>
-<wire x1="5.1" y1="-4.3" x2="4.3" y2="-5.1" width="0.1016" layer="51"/>
-<wire x1="4.3" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="51"/>
-<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="5.1" width="0.1016" layer="51"/>
-<wire x1="-4.875" y1="0.85" x2="4.875" y2="0.85" width="0.1016" layer="21" curve="-160.259855"/>
-<wire x1="-5.1" y1="0.875" x2="-5.1" y2="5.1" width="0.1016" layer="21"/>
-<wire x1="-5.1" y1="5.1" x2="4.3" y2="5.1" width="0.1016" layer="21"/>
-<wire x1="4.3" y1="5.1" x2="5.1" y2="4.3" width="0.1016" layer="21"/>
-<wire x1="5.1" y1="-4.3" x2="4.3" y2="-5.1" width="0.1016" layer="21"/>
-<wire x1="4.3" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="21"/>
-<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="-0.85" width="0.1016" layer="21"/>
-<wire x1="4.875" y1="-0.85" x2="-4.875" y2="-0.85" width="0.1016" layer="21" curve="-160.259855"/>
-<circle x="0" y="0" radius="4.95" width="0.1016" layer="51"/>
-<smd name="-" x="-3.95" y="0" dx="3.6" dy="1.3" layer="1"/>
-<smd name="+" x="3.925" y="0" dx="3.6" dy="1.3" layer="1"/>
-<text x="-5.08" y="5.715" size="1.016" layer="25">&gt;NAME</text>
-<text x="-5.08" y="-6.35" size="1.016" layer="27">&gt;VALUE</text>
+<package name="153CLV-1014">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="4.3" y1="-5.2" x2="-5.2" y2="-5.2" width="0.2032" layer="21"/>
+<wire x1="-5.2" y1="-5.2" x2="-5.2" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-5.2" y1="-1.5" x2="-5.2" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="-5.2" y1="1.5" x2="-5.2" y2="5.2" width="0.2032" layer="21"/>
+<wire x1="-5.2" y1="5.2" x2="4.3" y2="5.2" width="0.2032" layer="21"/>
+<wire x1="5.2" y1="4.3" x2="5.2" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="5.2" y1="1.5" x2="5.2" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="5.2" y1="-1.5" x2="5.2" y2="-4.3" width="0.2032" layer="21"/>
+<wire x1="5.2" y1="-4.3" x2="4.3" y2="-5.2" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="5.2" x2="5.2" y2="4.3" width="0.2032" layer="21"/>
+<wire x1="4.65" y1="-1.55" x2="4.65" y2="1.55" width="0.2032" layer="51" curve="36.869898" cap="flat"/>
+<wire x1="-4.65" y1="-1.55" x2="-4.65" y2="1.55" width="0.2032" layer="51" curve="-36.869898" cap="flat"/>
+<wire x1="-4.65" y1="-1.55" x2="4.65" y2="-1.55" width="0.2032" layer="21" curve="143.130102" cap="flat"/>
+<wire x1="-4.65" y1="1.55" x2="4.65" y2="1.55" width="0.2032" layer="21" curve="-143.130102" cap="flat"/>
+<smd name="+" x="4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
+<smd name="-" x="-4.15" y="0" dx="4.3" dy="2.5" layer="1"/>
+<text x="-5.29" y="5.53" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.325" y="-6.785" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="175TMP-0808">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="3.2" y1="-4.1" x2="-4.1" y2="-4.1" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="-1.55" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="-1.55" x2="-4.1" y2="1.55" width="0.2032" layer="51"/>
+<wire x1="-4.1" y1="1.55" x2="-4.1" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="4.1" x2="3.2" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="3.2" x2="4.1" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="1.5" x2="4.1" y2="-1.55" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-1.55" x2="4.1" y2="-3.2" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="-3.2" x2="3.2" y2="-4.1" width="0.2032" layer="21"/>
+<wire x1="3.2" y1="4.1" x2="4.1" y2="3.2" width="0.2032" layer="21"/>
+<wire x1="-3.6" y1="-1.45" x2="3.6" y2="-1.45" width="0.2032" layer="21" curve="136.123039" cap="flat"/>
+<wire x1="-3.6" y1="-1.45" x2="-3.6" y2="1.45" width="0.2032" layer="51" curve="-43.876961" cap="flat"/>
+<wire x1="-3.6" y1="1.45" x2="3.6" y2="1.45" width="0.2032" layer="21" curve="-136.123039" cap="flat"/>
+<wire x1="3.6" y1="1.45" x2="3.6" y2="-1.45" width="0.2032" layer="51" curve="-43.876961" cap="flat"/>
+<smd name="+" x="3.5" y="0" dx="3" dy="2.5" layer="1"/>
+<smd name="-" x="-3.5" y="0" dx="3" dy="2.5" layer="1"/>
+<text x="-4.29" y="4.53" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.325" y="-5.785" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="175TMP-0810">
+<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
+High Temperature solid electrolytic SMD 175 TMP&lt;p&gt;
+http://www.bccomponents.com/</description>
+<wire x1="3.2" y1="-4.1" x2="-4.1" y2="-4.1" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="-1.55" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="-1.55" x2="-4.1" y2="1.55" width="0.2032" layer="51"/>
+<wire x1="-4.1" y1="1.55" x2="-4.1" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="-4.1" y1="4.1" x2="3.2" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="3.2" x2="4.1" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="1.5" x2="4.1" y2="-1.55" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-1.55" x2="4.1" y2="-3.2" width="0.2032" layer="21"/>
+<wire x1="4.1" y1="-3.2" x2="3.2" y2="-4.1" width="0.2032" layer="21"/>
+<wire x1="3.2" y1="4.1" x2="4.1" y2="3.2" width="0.2032" layer="21"/>
+<wire x1="-3.6" y1="-1.45" x2="3.6" y2="-1.45" width="0.2032" layer="21" curve="136.123039" cap="flat"/>
+<wire x1="-3.6" y1="-1.45" x2="-3.6" y2="1.45" width="0.2032" layer="51" curve="-43.876961" cap="flat"/>
+<wire x1="-3.6" y1="1.45" x2="3.6" y2="1.45" width="0.2032" layer="21" curve="-136.123039" cap="flat"/>
+<wire x1="3.6" y1="-1.45" x2="3.6" y2="1.45" width="0.2032" layer="51" curve="43.876961" cap="flat"/>
+<smd name="+" x="3.5" y="0" dx="3" dy="2.5" layer="1"/>
+<smd name="-" x="-3.5" y="0" dx="3" dy="2.5" layer="1"/>
+<text x="-4.29" y="4.53" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.325" y="-5.785" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="A/3216-18R">
+<description>&lt;b&gt;Chip Capacitor Type KEMET A / EIA 3216-18 Reflow solder&lt;/b&gt;&lt;p&gt;
+KEMET S / EIA 3216-12</description>
+<wire x1="-1.45" y1="0.6" x2="1.45" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="0.6" x2="1.45" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="-0.6" x2="-1.45" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="-0.6" x2="-1.45" y2="0.6" width="0.1016" layer="51"/>
+<smd name="+" x="1.375" y="0" dx="1.95" dy="1.5" layer="1"/>
+<smd name="-" x="-1.375" y="0" dx="1.95" dy="1.5" layer="1"/>
+<text x="-1.95" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.95" y="-2.325" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6" y1="-0.6" x2="-1.475" y2="0.6" layer="51"/>
+<rectangle x1="1.475" y1="-0.6" x2="1.6" y2="0.6" layer="51"/>
+<rectangle x1="0.8" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
+</package>
+<package name="B/3528-21R">
+<description>&lt;b&gt;Chip Capacitor Type KEMET B / EIA 3528-21 Reflow solder&lt;/b&gt;&lt;p&gt;
+KEMET T / EIA 3528-12</description>
+<wire x1="-1.6" y1="1.2" x2="1.6" y2="1.2" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="1.2" x2="1.6" y2="-1.2" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="-1.2" x2="-1.6" y2="-1.2" width="0.1016" layer="51"/>
+<wire x1="-1.6" y1="-1.2" x2="-1.6" y2="1.2" width="0.1016" layer="51"/>
+<smd name="+" x="1.525" y="0" dx="1.95" dy="2.5" layer="1"/>
+<smd name="-" x="-1.525" y="0" dx="1.95" dy="2.5" layer="1"/>
+<text x="-1.95" y="1.6" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.95" y="-2.925" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.75" y1="-0.6" x2="-1.625" y2="0.6" layer="51"/>
+<rectangle x1="1.625" y1="-0.6" x2="1.75" y2="0.6" layer="51"/>
+<rectangle x1="0.95" y1="-1.225" x2="1.25" y2="1.225" layer="51"/>
+</package>
+<package name="C/6032-28R">
+<description>&lt;b&gt;Chip Capacitor Type KEMET C / EIA 6032-28 Reflow solder&lt;/b&gt;&lt;p&gt;
+KEMET U / EIA 6032-15</description>
+<wire x1="-2.8" y1="1.55" x2="2.8" y2="1.55" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="1.55" x2="2.8" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="-1.55" x2="-2.8" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="-2.8" y1="-1.55" x2="-2.8" y2="1.55" width="0.1016" layer="51"/>
+<smd name="+" x="2.525" y="0" dx="2.55" dy="2.5" layer="1"/>
+<smd name="-" x="-2.525" y="0" dx="2.55" dy="2.5" layer="1"/>
+<text x="-3" y="1.825" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-3.05" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3" y1="-1.1" x2="-2.85" y2="1.1" layer="51"/>
+<rectangle x1="2.85" y1="-1.1" x2="3" y2="1.1" layer="51"/>
+<rectangle x1="1.95" y1="-1.575" x2="2.45" y2="1.575" layer="51"/>
+</package>
+<package name="D/7343-31R">
+<description>&lt;b&gt;Chip Capacitor Type KEMET D / EIA 7343-21&lt;/b&gt;&lt;p&gt;
+KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Reflow solder</description>
+<wire x1="-3.45" y1="2.1" x2="3.45" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="3.45" y1="2.1" x2="3.45" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="3.45" y1="-2.1" x2="-3.45" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="-3.45" y1="-2.1" x2="-3.45" y2="2.1" width="0.1016" layer="51"/>
+<smd name="+" x="3.175" y="0" dx="2.55" dy="2.7" layer="1"/>
+<smd name="-" x="-3.175" y="0" dx="2.55" dy="2.7" layer="1"/>
+<text x="-3.65" y="2.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.65" y="-3.575" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.65" y1="-1.2" x2="-3.5" y2="1.2" layer="51"/>
+<rectangle x1="3.5" y1="-1.2" x2="3.65" y2="1.2" layer="51"/>
+<rectangle x1="2.675" y1="-2.125" x2="3.15" y2="2.125" layer="51"/>
+</package>
+<package name="E/7260-38R">
+<description>&lt;b&gt;Chip Capacitor Type KEMET E / EIA 7260-38 Reflow solder&lt;/b&gt;</description>
+<wire x1="-3.45" y1="2.95" x2="3.45" y2="2.95" width="0.1016" layer="51"/>
+<wire x1="3.45" y1="2.95" x2="3.45" y2="-2.95" width="0.1016" layer="51"/>
+<wire x1="3.45" y1="-2.95" x2="-3.45" y2="-2.95" width="0.1016" layer="51"/>
+<wire x1="-3.45" y1="-2.95" x2="-3.45" y2="2.95" width="0.1016" layer="51"/>
+<smd name="+" x="3.175" y="0" dx="2.55" dy="4.4" layer="1"/>
+<smd name="-" x="-3.175" y="0" dx="2.55" dy="4.4" layer="1"/>
+<text x="-4.45" y="3.15" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.45" y="-4.475" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.65" y1="-2.05" x2="-3.5" y2="2.05" layer="51"/>
+<rectangle x1="3.5" y1="-2.05" x2="3.65" y2="2.05" layer="51"/>
+<rectangle x1="2.675" y1="-2.975" x2="3.15" y2="2.975" layer="51"/>
+</package>
+<package name="R/2012-12R">
+<description>&lt;b&gt;Chip Capacitor Type KEMET R/EIA 2012-12 Reflow solder&lt;/b&gt;</description>
+<wire x1="-0.85" y1="0.6" x2="0.85" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="0.85" y1="0.6" x2="0.85" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="0.85" y1="-0.6" x2="-0.85" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-0.85" y1="-0.6" x2="-0.85" y2="0.6" width="0.1016" layer="51"/>
+<smd name="+" x="1.175" y="0" dx="1.55" dy="1.8" layer="1"/>
+<smd name="-" x="-1.175" y="0" dx="1.55" dy="1.8" layer="1"/>
+<text x="-1.95" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.95" y="-2.325" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1" y1="-0.45" x2="-0.875" y2="0.45" layer="51"/>
+<rectangle x1="0.875" y1="-0.45" x2="1" y2="0.45" layer="51"/>
+<rectangle x1="0.3" y1="-0.625" x2="0.5" y2="0.625" layer="51"/>
+</package>
+<package name="PANASONIC_A">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package A&lt;/b&gt;</description>
+<wire x1="-1.6" y1="1.6" x2="0.8" y2="1.6" width="0.1016" layer="51"/>
+<wire x1="0.8" y1="1.6" x2="1.6" y2="0.8" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="0.8" y2="-1.6" width="0.1016" layer="51"/>
+<wire x1="0.8" y1="-1.6" x2="-1.6" y2="-1.6" width="0.1016" layer="51"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="1.6" width="0.1016" layer="51"/>
+<wire x1="-1.1" y1="0.95" x2="1.1" y2="0.95" width="0.1016" layer="21" curve="-98.369832" cap="flat"/>
+<wire x1="-1.1" y1="-0.95" x2="1.15" y2="-0.9" width="0.1016" layer="21" curve="101.144396" cap="flat"/>
+<wire x1="-1.6" y1="0.95" x2="-1.6" y2="1.6" width="0.1016" layer="21"/>
+<wire x1="-1.6" y1="1.6" x2="0.8" y2="1.6" width="0.1016" layer="21"/>
+<wire x1="0.8" y1="1.6" x2="1.5" y2="0.9" width="0.1016" layer="21"/>
+<wire x1="1.5" y1="-0.9" x2="0.8" y2="-1.6" width="0.1016" layer="21"/>
+<wire x1="0.8" y1="-1.6" x2="-1.6" y2="-1.6" width="0.1016" layer="21"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="-0.95" width="0.1016" layer="21"/>
+<wire x1="-0.8" y1="1.2" x2="-0.8" y2="-1.2" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="1.45" width="0.1016" layer="51"/>
+<smd name="-" x="-1.3" y="0" dx="2" dy="1.5" layer="1"/>
+<smd name="+" x="1.3" y="0" dx="2" dy="1.5" layer="1"/>
+<text x="-1.65" y="1.75" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.65" y="-2.825" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.8" y1="-0.3" x2="-1.45" y2="0.3" layer="51"/>
+<rectangle x1="1.45" y1="-0.3" x2="1.8" y2="0.3" layer="51"/>
 <polygon width="0.1016" layer="51">
-<vertex x="-4.05" y="2.8" curve="69.465624"/>
-<vertex x="-4.05" y="-2.825"/>
+<vertex x="-0.85" y="1.1"/>
+<vertex x="-1.15" y="0.8"/>
+<vertex x="-1.35" y="0.3"/>
+<vertex x="-1.35" y="-0.3"/>
+<vertex x="-1.15" y="-0.8"/>
+<vertex x="-0.85" y="-1.1"/>
+<vertex x="-0.85" y="1.05"/>
 </polygon>
 </package>
-<package name="UD-4X5,8_NICHICON">
-<description>&lt;b&gt;ALUMINUM ELECTROLYTIC CAPACITORS&lt;/b&gt; UD Series 4 x 5.8 mm&lt;p&gt;
-Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
-<wire x1="-2.1" y1="2.1" x2="1.3" y2="2.1" width="0.1016" layer="51"/>
-<wire x1="1.3" y1="2.1" x2="2.1" y2="1.3" width="0.1016" layer="51"/>
-<wire x1="2.1" y1="1.3" x2="2.1" y2="-1.3" width="0.1016" layer="51"/>
-<wire x1="2.1" y1="-1.3" x2="1.3" y2="-2.1" width="0.1016" layer="51"/>
-<wire x1="1.3" y1="-2.1" x2="-2.1" y2="-2.1" width="0.1016" layer="51"/>
+<package name="PANASONIC_B">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package B&lt;/b&gt;</description>
+<wire x1="-2.1" y1="2.1" x2="1" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="1" y1="2.1" x2="2.1" y2="1" width="0.1016" layer="51"/>
+<wire x1="2.1" y1="1" x2="2.1" y2="-1" width="0.1016" layer="51"/>
+<wire x1="2.1" y1="-1" x2="1" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="1" y1="-2.1" x2="-2.1" y2="-2.1" width="0.1016" layer="51"/>
 <wire x1="-2.1" y1="-2.1" x2="-2.1" y2="2.1" width="0.1016" layer="51"/>
-<wire x1="-1.75" y1="0.875" x2="1.75" y2="0.875" width="0.1016" layer="21" curve="-126.263848"/>
-<wire x1="-2.1" y1="0.9" x2="-2.1" y2="2.1" width="0.1016" layer="21"/>
-<wire x1="-2.1" y1="2.1" x2="1.3" y2="2.1" width="0.1016" layer="21"/>
-<wire x1="1.3" y1="2.1" x2="2.1" y2="1.3" width="0.1016" layer="21"/>
-<wire x1="2.1" y1="-1.3" x2="1.3" y2="-2.1" width="0.1016" layer="21"/>
-<wire x1="1.3" y1="-2.1" x2="-2.1" y2="-2.1" width="0.1016" layer="21"/>
-<wire x1="-2.1" y1="-2.1" x2="-2.1" y2="-0.9" width="0.1016" layer="21"/>
-<wire x1="1.75" y1="-0.875" x2="-1.75" y2="-0.875" width="0.1016" layer="21" curve="-126.263848"/>
-<circle x="0" y="0" radius="1.9527" width="0.1016" layer="51"/>
-<smd name="-" x="-1.425" y="0" dx="2" dy="1" layer="1"/>
-<smd name="+" x="1.425" y="0" dx="2" dy="1" layer="1"/>
-<text x="-1.905" y="2.54" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.016" layer="27">&gt;VALUE</text>
+<wire x1="-1.75" y1="0.85" x2="1.75" y2="0.85" width="0.1016" layer="21" curve="-128.186984" cap="flat"/>
+<wire x1="-1.75" y1="-0.85" x2="1.75" y2="-0.85" width="0.1016" layer="21" curve="128.186984" cap="flat"/>
+<wire x1="-2.1" y1="0.85" x2="-2.1" y2="2.1" width="0.1016" layer="21"/>
+<wire x1="-2.1" y1="2.1" x2="1" y2="2.1" width="0.1016" layer="21"/>
+<wire x1="1" y1="2.1" x2="2.1" y2="1" width="0.1016" layer="21"/>
+<wire x1="2.1" y1="-1" x2="1" y2="-2.1" width="0.1016" layer="21"/>
+<wire x1="1" y1="-2.1" x2="-2.1" y2="-2.1" width="0.1016" layer="21"/>
+<wire x1="-2.1" y1="-2.1" x2="-2.1" y2="-0.85" width="0.1016" layer="21"/>
+<wire x1="-1.2" y1="1.5" x2="-1.2" y2="-1.5" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="1.95" width="0.1016" layer="51"/>
+<smd name="-" x="-1.6" y="0" dx="2.2" dy="1.4" layer="1"/>
+<smd name="+" x="1.6" y="0" dx="2.2" dy="1.4" layer="1"/>
+<text x="-2.15" y="2.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.15" y="-3.275" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.3" y1="-0.35" x2="-1.85" y2="0.35" layer="51"/>
+<rectangle x1="1.9" y1="-0.35" x2="2.3" y2="0.35" layer="51"/>
 <polygon width="0.1016" layer="51">
-<vertex x="-1.55" y="1.175" curve="72.275472"/>
-<vertex x="-1.55" y="-1.175"/>
+<vertex x="-1.25" y="1.45"/>
+<vertex x="-1.7" y="0.85"/>
+<vertex x="-1.85" y="0.35"/>
+<vertex x="-1.85" y="-0.4"/>
+<vertex x="-1.7" y="-0.85"/>
+<vertex x="-1.25" y="-1.4"/>
+<vertex x="-1.25" y="1.4"/>
 </polygon>
 </package>
-<package name="UD-5X5,8_NICHICON">
-<description>&lt;b&gt;ALUMINUM ELECTROLYTIC CAPACITORS&lt;/b&gt; UD Series 5 x 5.8 mm&lt;p&gt;
-Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
-<wire x1="-2.6" y1="2.6" x2="1.8" y2="2.6" width="0.1016" layer="51"/>
-<wire x1="1.8" y1="2.6" x2="2.6" y2="1.8" width="0.1016" layer="51"/>
-<wire x1="2.6" y1="1.8" x2="2.6" y2="-1.8" width="0.1016" layer="51"/>
-<wire x1="2.6" y1="-1.8" x2="1.8" y2="-2.6" width="0.1016" layer="51"/>
-<wire x1="1.8" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1016" layer="51"/>
+<package name="PANASONIC_C">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package C&lt;/b&gt;</description>
+<wire x1="-2.6" y1="2.6" x2="1.25" y2="2.6" width="0.1016" layer="51"/>
+<wire x1="1.25" y1="2.6" x2="2.6" y2="1.25" width="0.1016" layer="51"/>
+<wire x1="2.6" y1="1.25" x2="2.6" y2="-1.25" width="0.1016" layer="51"/>
+<wire x1="2.6" y1="-1.25" x2="1.25" y2="-2.6" width="0.1016" layer="51"/>
+<wire x1="1.25" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1016" layer="51"/>
 <wire x1="-2.6" y1="-2.6" x2="-2.6" y2="2.6" width="0.1016" layer="51"/>
-<wire x1="-2.3" y1="0.85" x2="2.275" y2="0.9" width="0.1016" layer="21" curve="-137.986421"/>
-<wire x1="-2.6" y1="0.7" x2="-2.6" y2="2.6" width="0.1016" layer="21"/>
-<wire x1="-2.6" y1="2.6" x2="1.8" y2="2.6" width="0.1016" layer="21"/>
-<wire x1="1.8" y1="2.6" x2="2.6" y2="1.8" width="0.1016" layer="21"/>
-<wire x1="2.6" y1="-1.8" x2="1.8" y2="-2.6" width="0.1016" layer="21"/>
-<wire x1="1.8" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1016" layer="21"/>
-<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="-0.7" width="0.1016" layer="21"/>
-<wire x1="2.3" y1="-0.85" x2="-2.275" y2="-0.9" width="0.1016" layer="21" curve="-137.986421"/>
-<circle x="0" y="0" radius="2.4501" width="0.1016" layer="51"/>
-<smd name="-" x="-1.7" y="0" dx="2.3" dy="1" layer="1"/>
-<smd name="+" x="1.725" y="0" dx="2.3" dy="1" layer="1"/>
-<text x="-2.54" y="3.175" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.016" layer="27">&gt;VALUE</text>
+<wire x1="-2.6" y1="0.95" x2="-2.6" y2="2.6" width="0.1016" layer="21"/>
+<wire x1="-2.6" y1="2.6" x2="1.25" y2="2.6" width="0.1016" layer="21"/>
+<wire x1="1.25" y1="2.6" x2="2.6" y2="1.25" width="0.1016" layer="21"/>
+<wire x1="2.6" y1="1.25" x2="2.6" y2="0.95" width="0.1016" layer="21"/>
+<wire x1="2.6" y1="-0.95" x2="2.6" y2="-1.25" width="0.1016" layer="21"/>
+<wire x1="2.6" y1="-1.25" x2="1.25" y2="-2.6" width="0.1016" layer="21"/>
+<wire x1="1.25" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1016" layer="21"/>
+<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="-0.95" width="0.1016" layer="21"/>
+<wire x1="-2.3" y1="0.85" x2="2.3" y2="0.85" width="0.1016" layer="21" curve="-139.434882" cap="flat"/>
+<wire x1="-2.3" y1="-0.85" x2="2.3" y2="-0.85" width="0.1016" layer="21" curve="139.434882" cap="flat"/>
+<wire x1="-1.55" y1="1.85" x2="-1.55" y2="-1.85" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="2.45" width="0.1016" layer="51"/>
+<smd name="-" x="-2.05" y="0" dx="2.6" dy="1.4" layer="1"/>
+<smd name="+" x="2.05" y="0" dx="2.6" dy="1.4" layer="1"/>
+<text x="-2.6" y="2.75" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.65" y="-3.775" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.95" y1="-0.35" x2="-2.4" y2="0.35" layer="51"/>
+<rectangle x1="2.4" y1="-0.35" x2="2.95" y2="0.35" layer="51"/>
 <polygon width="0.1016" layer="51">
-<vertex x="-1.55" y="1.875" curve="100.118878"/>
-<vertex x="-1.55" y="-1.875"/>
+<vertex x="-1.6" y="1.8"/>
+<vertex x="-2" y="1.35"/>
+<vertex x="-2.25" y="0.75"/>
+<vertex x="-2.45" y="0.05"/>
+<vertex x="-2.25" y="-0.75"/>
+<vertex x="-1.95" y="-1.35"/>
+<vertex x="-1.6" y="-1.8"/>
 </polygon>
 </package>
-<package name="UD-6,3X5,8_NICHICON">
-<description>&lt;b&gt;ALUMINUM ELECTROLYTIC CAPACITORS&lt;/b&gt; UD Series 6.3 x 5.8 mm&lt;p&gt;
-Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
-<wire x1="-3.25" y1="3.25" x2="2.45" y2="3.25" width="0.1016" layer="51"/>
-<wire x1="2.45" y1="3.25" x2="3.25" y2="2.45" width="0.1016" layer="51"/>
-<wire x1="3.25" y1="2.45" x2="3.25" y2="-2.45" width="0.1016" layer="51"/>
-<wire x1="3.25" y1="-2.45" x2="2.45" y2="-3.25" width="0.1016" layer="51"/>
-<wire x1="2.45" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="51"/>
+<package name="PANASONIC_D">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package D&lt;/b&gt;</description>
+<wire x1="-3.25" y1="3.25" x2="1.55" y2="3.25" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="3.25" x2="3.25" y2="1.55" width="0.1016" layer="51"/>
+<wire x1="3.25" y1="1.55" x2="3.25" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="3.25" y1="-1.55" x2="1.55" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="51"/>
 <wire x1="-3.25" y1="-3.25" x2="-3.25" y2="3.25" width="0.1016" layer="51"/>
-<wire x1="-3" y1="0.775" x2="2.975" y2="0.85" width="0.1016" layer="21" curve="-149.753145"/>
-<wire x1="-3.25" y1="0.8" x2="-3.25" y2="3.25" width="0.1016" layer="21"/>
-<wire x1="-3.25" y1="3.25" x2="2.45" y2="3.25" width="0.1016" layer="21"/>
-<wire x1="2.45" y1="3.25" x2="3.25" y2="2.45" width="0.1016" layer="21"/>
-<wire x1="3.25" y1="-2.45" x2="2.45" y2="-3.25" width="0.1016" layer="21"/>
-<wire x1="2.45" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="21"/>
-<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="-0.7" width="0.1016" layer="21"/>
-<wire x1="3" y1="-0.775" x2="-2.975" y2="-0.85" width="0.1016" layer="21" curve="-149.753145"/>
-<circle x="0" y="0" radius="3.1001" width="0.1016" layer="51"/>
-<smd name="-" x="-2.35" y="0" dx="2.8" dy="1" layer="1"/>
-<smd name="+" x="2.35" y="0" dx="2.8" dy="1" layer="1"/>
-<text x="-3.175" y="3.81" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-4.445" size="1.016" layer="27">&gt;VALUE</text>
+<wire x1="-3.25" y1="0.95" x2="-3.25" y2="3.25" width="0.1016" layer="21"/>
+<wire x1="-3.25" y1="3.25" x2="1.55" y2="3.25" width="0.1016" layer="21"/>
+<wire x1="1.55" y1="3.25" x2="3.25" y2="1.55" width="0.1016" layer="21"/>
+<wire x1="3.25" y1="1.55" x2="3.25" y2="0.95" width="0.1016" layer="21"/>
+<wire x1="3.25" y1="-0.95" x2="3.25" y2="-1.55" width="0.1016" layer="21"/>
+<wire x1="3.25" y1="-1.55" x2="1.55" y2="-3.25" width="0.1016" layer="21"/>
+<wire x1="1.55" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="21"/>
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="-0.95" width="0.1016" layer="21"/>
+<wire x1="-2.95" y1="0.95" x2="2.95" y2="0.95" width="0.1016" layer="21" curve="-144.299363" cap="flat"/>
+<wire x1="-2.95" y1="-0.95" x2="2.95" y2="-0.95" width="0.1016" layer="21" curve="144.299363" cap="flat"/>
+<wire x1="-2.1" y1="2.25" x2="-2.1" y2="-2.2" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="3.1" width="0.1016" layer="51"/>
+<smd name="-" x="-2.4" y="0" dx="3" dy="1.4" layer="1"/>
+<smd name="+" x="2.4" y="0" dx="3" dy="1.4" layer="1"/>
+<text x="-1.75" y="1" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.75" y="-1.975" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.65" y1="-0.35" x2="-3.05" y2="0.35" layer="51"/>
+<rectangle x1="3.05" y1="-0.35" x2="3.65" y2="0.35" layer="51"/>
 <polygon width="0.1016" layer="51">
-<vertex x="-2.2" y="2.15" curve="88.581463"/>
-<vertex x="-2.2" y="-2.15"/>
+<vertex x="-2.15" y="2.15"/>
+<vertex x="-2.6" y="1.6"/>
+<vertex x="-2.9" y="0.9"/>
+<vertex x="-3.05" y="0"/>
+<vertex x="-2.9" y="-0.95"/>
+<vertex x="-2.55" y="-1.65"/>
+<vertex x="-2.15" y="-2.15"/>
+<vertex x="-2.15" y="2.1"/>
 </polygon>
 </package>
-<package name="UD-6,3X7,7_NICHICON">
-<description>&lt;b&gt;ALUMINUM ELECTROLYTIC CAPACITORS&lt;/b&gt; UD Series 6.3 x 7.7 mm&lt;p&gt;
-Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
-<wire x1="-3.25" y1="3.25" x2="2.45" y2="3.25" width="0.1016" layer="51"/>
-<wire x1="2.45" y1="3.25" x2="3.25" y2="2.45" width="0.1016" layer="51"/>
-<wire x1="3.25" y1="2.45" x2="3.25" y2="-2.45" width="0.1016" layer="51"/>
-<wire x1="3.25" y1="-2.45" x2="2.45" y2="-3.25" width="0.1016" layer="51"/>
-<wire x1="2.45" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="51"/>
-<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="3.25" width="0.1016" layer="51"/>
-<wire x1="-3" y1="0.775" x2="2.975" y2="0.85" width="0.1016" layer="21" curve="-149.753145"/>
-<wire x1="-3.25" y1="0.8" x2="-3.25" y2="3.25" width="0.1016" layer="21"/>
-<wire x1="-3.25" y1="3.25" x2="2.45" y2="3.25" width="0.1016" layer="21"/>
-<wire x1="2.45" y1="3.25" x2="3.25" y2="2.45" width="0.1016" layer="21"/>
-<wire x1="3.25" y1="-2.45" x2="2.45" y2="-3.25" width="0.1016" layer="21"/>
-<wire x1="2.45" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="21"/>
-<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="-0.7" width="0.1016" layer="21"/>
-<wire x1="3" y1="-0.775" x2="-2.975" y2="-0.85" width="0.1016" layer="21" curve="-149.753145"/>
-<circle x="0" y="0" radius="3.1001" width="0.1016" layer="51"/>
-<smd name="-" x="-2.35" y="0" dx="2.8" dy="1" layer="1"/>
-<smd name="+" x="2.35" y="0" dx="2.8" dy="1" layer="1"/>
-<text x="-3.175" y="3.81" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-4.445" size="1.016" layer="27">&gt;VALUE</text>
-<polygon width="0.1016" layer="51">
-<vertex x="-2.2" y="2.15" curve="88.581463"/>
-<vertex x="-2.2" y="-2.15"/>
-</polygon>
-</package>
-<package name="UD-8X10_NICHICON">
-<description>&lt;b&gt;ALUMINUM ELECTROLYTIC CAPACITORS&lt;/b&gt; UD Series 8 x 10 mm&lt;p&gt;
-Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
-<wire x1="-4.1" y1="4.1" x2="3.3" y2="4.1" width="0.1016" layer="51"/>
-<wire x1="3.3" y1="4.1" x2="4.1" y2="3.3" width="0.1016" layer="51"/>
-<wire x1="4.1" y1="3.3" x2="4.1" y2="-3.3" width="0.1016" layer="51"/>
-<wire x1="4.1" y1="-3.3" x2="3.3" y2="-4.1" width="0.1016" layer="51"/>
-<wire x1="3.3" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="51"/>
+<package name="PANASONIC_E">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package E&lt;/b&gt;</description>
+<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="51"/>
+<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="51"/>
+<wire x1="4.1" y1="1.8" x2="4.1" y2="-1.8" width="0.1016" layer="51"/>
+<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="51"/>
+<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="51"/>
 <wire x1="-4.1" y1="-4.1" x2="-4.1" y2="4.1" width="0.1016" layer="51"/>
-<wire x1="-3.85" y1="0.875" x2="3.85" y2="0.875" width="0.1016" layer="21" curve="-154.459402"/>
-<wire x1="-4.1" y1="0.825" x2="-4.1" y2="4.1" width="0.1016" layer="21"/>
-<wire x1="-4.1" y1="4.1" x2="3.3" y2="4.1" width="0.1016" layer="21"/>
-<wire x1="3.3" y1="4.1" x2="4.1" y2="3.3" width="0.1016" layer="21"/>
-<wire x1="4.1" y1="-3.3" x2="3.3" y2="-4.1" width="0.1016" layer="21"/>
-<wire x1="3.3" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="21"/>
-<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="-0.85" width="0.1016" layer="21"/>
-<wire x1="3.85" y1="-0.875" x2="-3.85" y2="-0.875" width="0.1016" layer="21" curve="-154.459402"/>
+<wire x1="-4.1" y1="0.9" x2="-4.1" y2="4.1" width="0.1016" layer="21"/>
+<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="21"/>
+<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="1.8" x2="4.1" y2="0.9" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="-0.9" x2="4.1" y2="-1.8" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="21"/>
+<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="21"/>
+<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="-0.9" width="0.1016" layer="21"/>
+<wire x1="-2.2" y1="3.25" x2="-2.2" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="-3.85" y1="0.9" x2="3.85" y2="0.9" width="0.1016" layer="21" curve="-153.684915" cap="flat"/>
+<wire x1="-3.85" y1="-0.9" x2="3.85" y2="-0.9" width="0.1016" layer="21" curve="153.684915" cap="flat"/>
 <circle x="0" y="0" radius="3.95" width="0.1016" layer="51"/>
-<smd name="-" x="-3.125" y="0" dx="3.3" dy="1.3" layer="1"/>
-<smd name="+" x="3.125" y="0" dx="3.3" dy="1.3" layer="1"/>
-<text x="-3.81" y="4.445" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-5.715" size="1.016" layer="27">&gt;VALUE</text>
+<smd name="-" x="-3" y="0" dx="3.8" dy="1.4" layer="1"/>
+<smd name="+" x="3" y="0" dx="3.8" dy="1.4" layer="1"/>
+<text x="-1.8" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.8" y="-2.225" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.5" y1="-0.35" x2="-3.8" y2="0.35" layer="51"/>
+<rectangle x1="3.8" y1="-0.35" x2="4.5" y2="0.35" layer="51"/>
 <polygon width="0.1016" layer="51">
-<vertex x="-3.05" y="2.475" curve="77.887741"/>
-<vertex x="-3.05" y="-2.475"/>
+<vertex x="-2.25" y="3.2"/>
+<vertex x="-3" y="2.5"/>
+<vertex x="-3.6" y="1.5"/>
+<vertex x="-3.85" y="0.65"/>
+<vertex x="-3.85" y="-0.65"/>
+<vertex x="-3.55" y="-1.6"/>
+<vertex x="-2.95" y="-2.55"/>
+<vertex x="-2.25" y="-3.2"/>
+<vertex x="-2.25" y="3.15"/>
+</polygon>
+</package>
+<package name="PANASONIC_F">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package F&lt;/b&gt;</description>
+<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="51"/>
+<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="51"/>
+<wire x1="4.1" y1="1.8" x2="4.1" y2="-1.8" width="0.1016" layer="51"/>
+<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="51"/>
+<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="51"/>
+<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="4.1" width="0.1016" layer="51"/>
+<wire x1="-4.1" y1="1" x2="-4.1" y2="4.1" width="0.1016" layer="21"/>
+<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="21"/>
+<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="1.8" x2="4.1" y2="1" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="-1" x2="4.1" y2="-1.8" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="21"/>
+<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="21"/>
+<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="-1" width="0.1016" layer="21"/>
+<wire x1="-2.2" y1="3.25" x2="-2.2" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="-3.85" y1="0.9" x2="3.85" y2="0.9" width="0.1016" layer="21" curve="-153.684915" cap="flat"/>
+<wire x1="-3.85" y1="-0.9" x2="3.85" y2="-0.9" width="0.1016" layer="21" curve="153.684915" cap="flat"/>
+<circle x="0" y="0" radius="4" width="0.001" layer="51"/>
+<circle x="0" y="0" radius="3.95" width="0.1016" layer="51"/>
+<smd name="-" x="-3.55" y="0" dx="4" dy="1.6" layer="1"/>
+<smd name="+" x="3.55" y="0" dx="4" dy="1.6" layer="1"/>
+<text x="-1.75" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.75" y="-2.375" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.85" y1="-0.45" x2="-3.9" y2="0.45" layer="51"/>
+<rectangle x1="3.9" y1="-0.45" x2="4.85" y2="0.45" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-2.25" y="3.2"/>
+<vertex x="-3" y="2.5"/>
+<vertex x="-3.6" y="1.5"/>
+<vertex x="-3.85" y="0.65"/>
+<vertex x="-3.85" y="-0.65"/>
+<vertex x="-3.55" y="-1.6"/>
+<vertex x="-2.95" y="-2.55"/>
+<vertex x="-2.25" y="-3.2"/>
+<vertex x="-2.25" y="3.15"/>
+</polygon>
+</package>
+<package name="PANASONIC_G">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package G&lt;/b&gt;</description>
+<wire x1="-5.1" y1="5.1" x2="2.8" y2="5.1" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.1016" layer="51"/>
+<wire x1="5.1" y1="2.8" x2="5.1" y2="-2.8" width="0.1016" layer="51"/>
+<wire x1="5.1" y1="-2.8" x2="2.8" y2="-5.1" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="51"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="5.1" width="0.1016" layer="51"/>
+<wire x1="-5.1" y1="1" x2="-5.1" y2="5.1" width="0.1016" layer="21"/>
+<wire x1="-5.1" y1="5.1" x2="2.8" y2="5.1" width="0.1016" layer="21"/>
+<wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.1016" layer="21"/>
+<wire x1="5.1" y1="2.8" x2="5.1" y2="1" width="0.1016" layer="21"/>
+<wire x1="5.1" y1="-1" x2="5.1" y2="-2.8" width="0.1016" layer="21"/>
+<wire x1="5.1" y1="-2.8" x2="2.8" y2="-5.1" width="0.1016" layer="21"/>
+<wire x1="2.8" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="-1" width="0.1016" layer="21"/>
+<wire x1="-4.85" y1="-1" x2="4.85" y2="-1" width="0.1016" layer="21" curve="156.699401" cap="flat"/>
+<wire x1="-4.85" y1="1" x2="4.85" y2="1" width="0.1016" layer="21" curve="-156.699401" cap="flat"/>
+<wire x1="-3.25" y1="3.7" x2="-3.25" y2="-3.65" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="4.95" width="0.1016" layer="51"/>
+<smd name="-" x="-4.25" y="0" dx="3.9" dy="1.6" layer="1"/>
+<smd name="+" x="4.25" y="0" dx="3.9" dy="1.6" layer="1"/>
+<text x="-2.55" y="1.75" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.55" y="-2.675" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-5.85" y1="-0.45" x2="-4.9" y2="0.45" layer="51"/>
+<rectangle x1="4.9" y1="-0.45" x2="5.85" y2="0.45" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-3.3" y="3.6"/>
+<vertex x="-4.05" y="2.75"/>
+<vertex x="-4.65" y="1.55"/>
+<vertex x="-4.85" y="0.45"/>
+<vertex x="-4.85" y="-0.45"/>
+<vertex x="-4.65" y="-1.55"/>
+<vertex x="-4.05" y="-2.75"/>
+<vertex x="-3.3" y="-3.6"/>
+<vertex x="-3.3" y="3.55"/>
 </polygon>
 </package>
 </packages>
@@ -13978,402 +13312,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="SMCA" package="SMC_A">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMCZ" package="SMC_Z">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMCP" package="SMC_P">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMCB" package="SMC_B">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMCC" package="SMC_C">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMCD" package="SMC_D">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMCE" package="SMC_E">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_9E" package="SANYO-OSCON_9E">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_9F" package="SANYO-OSCON_9F">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_A" package="SANYO-OSCON_A">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_A'" package="SANYO-OSCON_A'">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_B" package="SANYO-OSCON_B">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_B'" package="SANYO-OSCON_B'">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_C" package="SANYO-OSCON_C">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_C'" package="SANYO-OSCON_C'">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_C6" package="SANYO-OSCON_C6">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_D" package="SANYO-OSCON_D">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_E" package="SANYO-OSCON_E">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_E'" package="SANYO-OSCON_E'">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_E1" package="SANYO-OSCON_E1">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_E12" package="SANYO-OSCON_E12">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_E13" package="SANYO-OSCON_E13">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_E7" package="SANYO-OSCON_E7">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_E9" package="SANYO-OSCON_E9">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_F" package="SANYO-OSCON_F">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_F'" package="SANYO-OSCON_F'">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_F0" package="SANYO-OSCON_F0">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_F13" package="SANYO-OSCON_F13">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_F8" package="SANYO-OSCON_F8">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_G" package="SANYO-OSCON_G">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_H" package="SANYO-OSCON_H">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_SMD_A5" package="SANYO-OSCON_SMD_A5">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_SMD_B6" package="SANYO-OSCON_SMD_B6">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_SMD_C6" package="SANYO-OSCON_SMD_C6">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_SMD_E12" package="SANYO-OSCON_SMD_E12">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_SMD_E7" package="SANYO-OSCON_SMD_E7">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_SMD_F12" package="SANYO-OSCON_SMD_F12">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SANYO_SMD_F8" package="SANYO-OSCON_SMD_F8">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="UD-10X10" package="UD-10X10_NICHICON">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="UD-4X5,8" package="UD-4X5,8_NICHICON">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="UD-5X5,8" package="UD-5X5,8_NICHICON">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="UD-6,3X8,8" package="UD-6,3X5,8_NICHICON">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="UD-6,3X7,7" package="UD-6,3X7,7_NICHICON">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="UD-8X10" package="UD-8X10_NICHICON">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -14734,6 +13672,102 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="linear">
+<packages>
+<package name="TO92">
+<description>&lt;b&gt;TO-92&lt;/b&gt;</description>
+<wire x1="-2.095" y1="-1.651" x2="-0.7869" y2="2.5484" width="0.1524" layer="21" curve="-111.097684"/>
+<wire x1="0.7869" y1="2.5484" x2="2.095" y2="-1.651" width="0.1524" layer="21" curve="-111.097684"/>
+<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="-2.254" y1="-0.254" x2="-0.286" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-2.655" y1="-0.254" x2="-2.254" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="-0.286" y1="-0.254" x2="0.286" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="2.254" y1="-0.254" x2="2.655" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="0.286" y1="-0.254" x2="2.254" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-0.7864" y1="2.5484" x2="0.7864" y2="2.5484" width="0.1524" layer="51" curve="-34.298964"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon"/>
+<pad name="3" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="2.413" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.921" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="DPACK">
+<description>&lt;b&gt;DPAK&lt;/b&gt;&lt;p&gt;
+(Motorola)</description>
+<wire x1="3.2766" y1="3.8354" x2="3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-2.159" x2="-3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-2.159" x2="-3.2766" y2="3.8354" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="3.835" x2="3.2774" y2="3.8346" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="3.937" x2="-2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="4.6482" x2="-2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="-2.1082" y1="5.1054" x2="2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="2.1082" y1="5.1054" x2="2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="4.6482" x2="2.5654" y2="3.937" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="3.937" x2="-2.5654" y2="3.937" width="0.2032" layer="51"/>
+<smd name="2" x="0" y="2.5" dx="5.4" dy="6.2" layer="1"/>
+<smd name="1" x="-2.28" y="-4.8" dx="1" dy="1.6" layer="1"/>
+<smd name="3" x="2.28" y="-4.8" dx="1" dy="1.6" layer="1"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.7178" y1="-5.1562" x2="-1.8542" y2="-2.2606" layer="51"/>
+<rectangle x1="1.8542" y1="-5.1562" x2="2.7178" y2="-2.2606" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.0226" x2="0.4318" y2="-2.2606" layer="21"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-2.5654" y="3.937"/>
+<vertex x="-2.5654" y="4.6482"/>
+<vertex x="-2.1082" y="5.1054"/>
+<vertex x="2.1082" y="5.1054"/>
+<vertex x="2.5654" y="4.6482"/>
+<vertex x="2.5654" y="3.937"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="LP2950">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="-2.032" y="-3.81" size="1.524" layer="95">GND</text>
+<text x="-5.08" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="I" x="-7.62" y="2.54" length="short" direction="in"/>
+<pin name="O" x="7.62" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LP2950" prefix="IC">
+<description>&lt;b&gt;100 mA, Low Power Low Dropout Voltage Regulator&lt;/b&gt;&lt;p&gt;
+Source: http://www.onsemi.com/pub/Collateral/LP2950-D.PDF</description>
+<gates>
+<gate name="G$1" symbol="LP2950" x="0" y="0"/>
+</gates>
+<devices>
+<device name="Z" package="TO92">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="I" pad="3"/>
+<connect gate="G$1" pin="O" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="DPACK">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="I" pad="1"/>
+<connect gate="G$1" pin="O" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14757,7 +13791,6 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 <part name="J1" library="pinhead" deviceset="PINHD-1X8" device=""/>
 <part name="J2" library="pinhead" deviceset="PINHD-1X6" device=""/>
 <part name="J4" library="pinhead" deviceset="PINHD-1X6" device=""/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="microchip" deviceset="ENC28J60" device="SP"/>
 <part name="C1" library="resistor" deviceset="C-EU" device="025-025X050" value="18pF"/>
 <part name="C2" library="resistor" deviceset="C-EU" device="025-025X050" value="100nF"/>
@@ -14782,6 +13815,10 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 <part name="R10" library="resistor" deviceset="R-EU_" device="0204/7" value="220"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
+<part name="IC3" library="linear" deviceset="LP2950" device="Z"/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="C9" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="47u"/>
+<part name="C6" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="47u"/>
 </parts>
 <sheets>
 <sheet>
@@ -14797,7 +13834,6 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 <instance part="J1" gate="A" x="127" y="-7.62" rot="MR180"/>
 <instance part="J2" gate="A" x="127" y="-27.94" rot="MR180"/>
 <instance part="J4" gate="A" x="43.18" y="12.7" rot="MR180"/>
-<instance part="GND2" gate="1" x="160.02" y="-55.88"/>
 <instance part="IC1" gate="G$1" x="198.12" y="45.72"/>
 <instance part="C1" gate="G$1" x="254" y="2.54"/>
 <instance part="C2" gate="G$1" x="279.4" y="38.1"/>
@@ -14822,6 +13858,16 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 <instance part="R10" gate="G$1" x="299.72" y="2.54"/>
 <instance part="GND8" gate="1" x="309.88" y="-12.7"/>
 <instance part="GND9" gate="1" x="320.04" y="-12.7"/>
+<instance part="IC3" gate="G$1" x="259.08" y="-76.2"/>
+<instance part="GND11" gate="1" x="259.08" y="-91.44"/>
+<instance part="C9" gate="G$1" x="276.86" y="-78.74" smashed="yes">
+<attribute name="NAME" x="279.4" y="-80.5434" size="1.778" layer="95"/>
+<attribute name="VALUE" x="279.146" y="-83.0834" size="1.778" layer="96"/>
+</instance>
+<instance part="C6" gate="G$1" x="241.3" y="-78.74" smashed="yes">
+<attribute name="NAME" x="243.84" y="-80.5434" size="1.778" layer="95"/>
+<attribute name="VALUE" x="243.586" y="-83.0834" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14831,16 +13877,6 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 <pinref part="J4" gate="A" pin="4"/>
 <wire x1="40.64" y1="12.7" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
 <label x="17.78" y="12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="68.58" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
-<label x="124.46" y="71.12" size="1.778" layer="95"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="60.96" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="60.96" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
-<junction x="132.08" y="68.58"/>
 </segment>
 </net>
 <net name="GND" class="1">
@@ -14853,6 +13889,7 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 <wire x1="30.48" y1="-35.56" x2="-2.54" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-35.56" x2="-2.54" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+<label x="27.94" y="-33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -14931,6 +13968,30 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="322.58" y1="0" x2="320.04" y2="0" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="0" x2="320.04" y2="-10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="-"/>
+<wire x1="241.3" y1="-83.82" x2="241.3" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-86.36" x2="259.08" y2="-86.36" width="0.1524" layer="91"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="259.08" y1="-86.36" x2="259.08" y2="-88.9" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="GND"/>
+<wire x1="259.08" y1="-83.82" x2="259.08" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="259.08" y="-86.36"/>
+<pinref part="C9" gate="G$1" pin="-"/>
+<wire x1="276.86" y1="-83.82" x2="276.86" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="-86.36" x2="259.08" y2="-86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J4" gate="A" pin="3"/>
+<wire x1="40.64" y1="10.16" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="10.16" x2="30.48" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="J4" gate="A" pin="2"/>
+<wire x1="40.64" y1="7.62" x2="30.48" y2="7.62" width="0.1524" layer="91"/>
+<junction x="30.48" y="7.62"/>
+<wire x1="30.48" y1="7.62" x2="12.7" y2="7.62" width="0.1524" layer="91"/>
+<label x="25.4" y="10.16" size="1.778" layer="95"/>
+<label x="15.24" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INT0" class="0">
@@ -15018,11 +14079,6 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 </net>
 <net name="SS/OC1B" class="0">
 <segment>
-<wire x1="76.2" y1="-12.7" x2="124.46" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="J1" gate="A" pin="3"/>
-<label x="91.44" y="-12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="!CS"/>
 <wire x1="182.88" y1="53.34" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="53.34" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
@@ -15033,6 +14089,11 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 <wire x1="154.94" y1="60.96" x2="147.32" y2="60.96" width="0.1524" layer="91"/>
 <label x="116.84" y="55.88" size="1.778" layer="95"/>
 <label x="157.48" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="124.46" y1="-17.78" x2="76.2" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="J1" gate="A" pin="1"/>
+<label x="83.82" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -15068,6 +14129,15 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 <pinref part="J4" gate="A" pin="1"/>
 <wire x1="40.64" y1="5.08" x2="33.02" y2="5.08" width="0.1524" layer="91"/>
 <label x="29.464" y="3.175" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="I"/>
+<wire x1="220.98" y1="-73.66" x2="241.3" y2="-73.66" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="+"/>
+<wire x1="241.3" y1="-73.66" x2="251.46" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-76.2" x2="241.3" y2="-73.66" width="0.1524" layer="91"/>
+<junction x="241.3" y="-73.66"/>
+<label x="220.98" y="-71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -15121,12 +14191,6 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 <pinref part="J1" gate="A" pin="2"/>
 </segment>
 </net>
-<net name="N$28" class="0">
-<segment>
-<wire x1="124.46" y1="-17.78" x2="76.2" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="J1" gate="A" pin="1"/>
-</segment>
-</net>
 <net name="RXD" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="1"/>
@@ -15135,11 +14199,6 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 </segment>
 </net>
 <net name="V3.3" class="0">
-<segment>
-<pinref part="J4" gate="A" pin="5"/>
-<wire x1="40.64" y1="15.24" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
-<label x="25.4" y="15.24" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VDD"/>
 <wire x1="172.72" y1="71.12" x2="182.88" y2="71.12" width="0.1524" layer="91"/>
@@ -15166,45 +14225,28 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 <label x="226.06" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="63.5" x2="274.32" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="63.5" x2="279.4" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="58.42" x2="274.32" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="58.42" x2="274.32" y2="63.5" width="0.1524" layer="91"/>
-<junction x="274.32" y="63.5"/>
-<wire x1="279.4" y1="63.5" x2="292.1" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="63.5" x2="292.1" y2="55.88" width="0.1524" layer="91"/>
-<junction x="279.4" y="63.5"/>
-<wire x1="292.1" y1="55.88" x2="304.8" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="63.5" x2="274.32" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="BEAD" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="86.36" x2="269.24" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="78.74" x2="274.32" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="CT"/>
-<wire x1="322.58" y1="63.5" x2="304.8" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="63.5" x2="304.8" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="O"/>
+<wire x1="297.18" y1="-73.66" x2="276.86" y2="-73.66" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="+"/>
+<wire x1="276.86" y1="-73.66" x2="266.7" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="-76.2" x2="276.86" y2="-73.66" width="0.1524" layer="91"/>
+<junction x="276.86" y="-73.66"/>
+<label x="294.64" y="-71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="287.02" y1="78.74" x2="287.02" y2="81.28" width="0.1524" layer="91"/>
-<label x="289.56" y="81.28" size="1.778" layer="95"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="68.58" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="60.96" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="60.96" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
+<junction x="124.46" y="68.58"/>
+<label x="124.46" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="BEAD" gate="G$1" pin="2"/>
-<wire x1="279.4" y1="86.36" x2="284.48" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="86.36" x2="284.48" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="78.74" x2="287.02" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="1">
-<segment>
-<pinref part="J4" gate="A" pin="3"/>
-<wire x1="40.64" y1="10.16" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="10.16" x2="30.48" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="J4" gate="A" pin="2"/>
-<wire x1="40.64" y1="7.62" x2="30.48" y2="7.62" width="0.1524" layer="91"/>
-<junction x="30.48" y="7.62"/>
-<wire x1="30.48" y1="7.62" x2="12.7" y2="7.62" width="0.1524" layer="91"/>
-<label x="25.4" y="10.16" size="1.778" layer="95"/>
+<wire x1="279.4" y1="86.36" x2="289.56" y2="86.36" width="0.1524" layer="91"/>
+<label x="289.56" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OSC1" class="0">
@@ -15391,6 +14433,33 @@ Source: www.pulseeng.com .. PulseJack-J402.pdf</description>
 <pinref part="X2" gate="G$1" pin="C-O_A-G"/>
 <wire x1="304.8" y1="2.54" x2="322.58" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="2.54" x2="322.58" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CT" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="63.5" x2="274.32" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="63.5" x2="279.4" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="58.42" x2="274.32" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="58.42" x2="274.32" y2="63.5" width="0.1524" layer="91"/>
+<junction x="274.32" y="63.5"/>
+<wire x1="279.4" y1="63.5" x2="292.1" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="63.5" x2="292.1" y2="55.88" width="0.1524" layer="91"/>
+<junction x="279.4" y="63.5"/>
+<wire x1="292.1" y1="55.88" x2="304.8" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="CT"/>
+<wire x1="322.58" y1="63.5" x2="304.8" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="63.5" x2="304.8" y2="55.88" width="0.1524" layer="91"/>
+<label x="287.02" y="63.5" size="1.778" layer="95"/>
+<label x="271.78" y="55.88" size="1.778" layer="95"/>
+<pinref part="BEAD" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="86.36" x2="266.7" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="86.36" x2="266.7" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="76.2" x2="274.32" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="76.2" x2="274.32" y2="63.5" width="0.1524" layer="91"/>
+<label x="264.16" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
